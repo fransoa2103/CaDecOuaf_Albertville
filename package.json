@@ -1,0 +1,14 @@
+{
+  "name": "cadecouaf",
+  "version": "1.0.0",
+  "description": "site professionnel CA-DEC-OUAF pour Alexia Ligney",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "françois Couvé-Bonnaire",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta3"
+  }
+}
