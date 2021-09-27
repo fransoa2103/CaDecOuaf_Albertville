@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+    
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,11 +12,14 @@
             integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
         <link rel="stylesheet" href="design/defaut.css">
     </head>
-    <body class="container bg-light">
+
+    <body class="jumbtron">
+    <!-- <body class="container bg-light"> -->
+    
         <!-- menu navigation responsive -->
-        <nav class="navbar navbar-dark bg-dark navbar-expand-md py-3">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-xl py-1">
             <div class="navbar-brand">
-                CA DEC'OUAF
+                <h1 class="text-uppercase text-primary px-3">ça déc'ouaf</h1>
             </div>
             <div class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menuDeroulant">
                 <span class="navbar-toggler-icon"></span>
@@ -39,9 +43,8 @@
         </nav>
         <!-- header en-tête du site -->
         <header class="container text-center">
-            <h1 class="text-uppercase text-primary">ça déc'ouaf</h1>
             <p class="">TOILETTAGE CANIN à domicile à Albertville et ses environs.</p>
-            <h3><i>Pas de stress pour votre loulou, un gain de temps pour vous!</i></h3>
+            <p>Pas de stress pour votre loulou, un gain de temps pour vous!</p>
             <p>Bonjour, je suis Alexia, toiletteuse canin diplômée et championne de France 2010 de toilettage.</p>
         </header>
         <section class="text-center">
@@ -124,7 +127,7 @@
             </tbody>
         </table>
             
-        <!-- bas de page - Liens -->
+        <!-- LIENS EXTERNES -->
         <section class="liens text-center">
             <div>https://www.purina.fr/chiens/sante-nutrition</div>
             <div>Photo by Charles from Pexels</div>
@@ -133,20 +136,32 @@
             <div>Photo by Lum3n from Pexels</div>
             <div>Photo de Simona Kidrič provenant de Pexels</div>
             <div>Photo de Dominika Roseclay provenant de Pexels</div>
-            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+            <div>Icons made by
+                <a href="https://www.freepik.com" title="Freepik">Freepik</a>
+                <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
+            </div>
         </section>  
-        <!-- bas de page - footer -->
+        
+        <!-- FOOTER -->
+        <!-- <footer class="container d-flex justify-content-center bg-dark text-light py-5"> -->
 
-        <footer class="container d-flex justify-content-center bg-dark text-light py-5">
-            <div>
-                <img src="design\img\paw.svg" alt="logo patte de chien" style="width: 100px;">
+            <div class="media">
+                <img class="align-self-start" style="width:64px"src="design\img\paw.svg" alt="pow dog - patte de chien">
+                <div class="media-body">
+                    <h3 class="text-dark">Alexia by Ca Déc'Ouaf</h3>
+                    <p>Plus qu'un métier, une passion!</p>
+                </div>
             </div>
-            <div class="p-3 text-dark">
-                <h3>Alexia by Ca Déc'Ouaf</h3>
-                <p class=""><i>Plus qu'un métier, une passion!</i></p>
-            </div>
-        </footer>
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+        <!-- </footer> -->
+
+        <!-- JAVASCRIPT -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+                integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+                crossorigin="anonymous">
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+                integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+                crossorigin="anonymous">
+        </script>
     </body>
 </html>
