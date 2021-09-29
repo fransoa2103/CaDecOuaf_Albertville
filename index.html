@@ -2,54 +2,92 @@
 <html lang="fr">
     
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>BOOTSRAP 5</title>
-        <!-- CSS only -->
+        <meta
+            charset="UTF-8">
+        <meta
+            http-equiv="X-UA-Compatible"
+            content="IE=edge"
+        >
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0"
+        >
         <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-        <link rel="stylesheet" href="./design/defaut.css">
+            rel="icon"
+            href='design\img\paw_title.svg'
+            type="image/x-icon"
+        >
+        <title>
+            Ça déc'ouaf
+        </title>
+        <link
+            rel="stylesheet"    
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous"
+        >
+        <link
+            rel="stylesheet"
+            href="./design/defaut.css"
+        >
     </head>
+    
+    <body class="container text-light bg-primary">
 
-    <body class="container text-dark text-light bg-primary">
-        <header class=""> 
-            <div class="d-flex justify-content-center">
-                <img src="design\img\pngwing.com.png" alt="" class="">
-            </div>
+        <header class="container d-md-flex justify-content-start "> 
             <div class="text-center text-light">
                 <h1 class="display-1 text-uppercase ps-3">ça déc'ouaf</h1>
-                <p class="display-6 px-3 ">TOILETTAGE CANIN à domicile</p>
+                <p class="display-6 px-3 ">Toilettage canin à domicile</p>
+                <p class="px-3 ">Albertville et alentours*</p>
+            </div>
+            <div class="">
+                <img src="design\img\pngwing.com.png" alt="" class="">
             </div>
         </header>
+        
         <!-- menu navigation responsive -->
-        <nav class="navbar navbar-dark navbar-expand-xl py-1">
-            <div class="navbar-brand">
-                <img class="align-self-center p-1" src='design\img\paw.svg' alt="pow dog - patte de chien" style="opacity: 80%; width:150px; transform: rotate(-45deg);">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="navbar-brand ms-3">
+                <img src="design\img\scissors-removebg-preview.svg" alt="">
             </div>
             <div class="navbar-toggler me-3" data-bs-toggle="collapse" data-bs-target="#menuDeroulant">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon">
+
+                </span>
             </div>
-            <div class="collapse navbar-collapse px-3 justify-content-space" id="menuDeroulant">
-                <ul class="navbar-nav">
+            <div class="collapse navbar-collapse" id="menuDeroulant">
+                <ul class="navbar-nav ms-3">
                     <li class="nav-item">
-                        <a href="#prestations" class="nav-link">Prestations & Tarifs</a>
+                        <a href="#prestations" class="nav-link">
+                            <img class="me-1" src='design\img\paw.svg' alt="pow dog - patte de chien">Tarifs
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#rayon" class="nav-link">Rayon de déplacements</a>
+                        <a href="#rayon" class="nav-link">
+                            <img class="me-1" src='design\img\paw.svg' alt="pow dog - patte de chien">Rayon
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Contact</a>
+                        <a href="#" class="nav-link">
+                            <img class="me-1" src='design\img\paw.svg' alt="pow dog - patte de chien">Contact
+                        </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">moi, Alexia</a>
+                        <a href="#" class="nav-link">
+                            <img class="me-1" src='design\img\paw.svg' alt="pow dog - patte de chien">moi, Alexia
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">
+                            <img class="me-1" src='design\img\paw.svg' alt="pow dog - patte de chien">Photos
+                        </a>
                     </li>
                 </ul>
             </div>
         </nav>
+        
 
-        <!-- header en-tête du site -->
+        <!-- SECTIONS -->
         <section class="text-center">
             <p>Pas de stress pour votre loulou, un gain de temps pour vous!</p>
             <p>Bonjour, je suis Alexia, toiletteuse canin diplômée et championne de France 2010 de toilettage.</p>
@@ -60,7 +98,7 @@
             Tout ce dont j'ai besoin, c'est un point d'eau et une pièce fermée.
             Confiez-moi votre animal et vous bénéficerez de mon savoir-faire!</p>
         </section>
-        <!-- Prestations -->
+
         <table id="prestations" class="table">
             <h2 class="text-center">PRESTATIONS & TARIFS 2021</h2>
             <thead>
@@ -134,32 +172,33 @@
             </tbody>
         </table>
             
-        <!-- LIENS EXTERNES -->
-        <section class="liens text-center">
-            <div>https://www.purina.fr/chiens/sante-nutrition</div>
-            <div>Photo by Charles from Pexels</div>
-            <div>Photo de Sam Lion provenant de Pexels</div>
-            <div>Photo de Yaroslav Shuraev provenant de Pexels</div>
-            <div>Photo by Lum3n from Pexels</div>
-            <div>Photo de Simona Kidrič provenant de Pexels</div>
-            <div>Photo de Dominika Roseclay provenant de Pexels</div>
-            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-            <div>Icons made by
-                <a href="https://www.freepik.com" title="Freepik">Freepik</a>
-                <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-            </div>
-        </section>  
-        
         <!-- FOOTER -->
-        
-        <footer class="d-flex justify-content-center bg-primary">
+        <footer class="d-flex justify-content-center bg-dark">
             <img class="align-self-center p-1" src='design\img\paw.svg' alt="pow dog - patte de chien" style="opacity: 80%; width:150px; transform: rotate(-45deg);">
             <div class="justify-item-center align-item-center text-light">
-                <h3 class="display-4 text-center">Alexia by Ca Déc'Ouaf</h3>
+                <h3 class="display-4 text-center">Alexia by ça Déc'Ouaf</h3>
                 <p class="display-6 text-center">Plus qu'un métier, une passion!</p>
             </div>
         </footer>
-        
+
+
+        <!-- LIENS EXTERNES -->
+        <section class="d-md-flex justify-content-center liens text-start">
+            <div>
+                <a href = "https://www.purina.fr/chiens/sante-nutrition" title = "PURINA">PURINA</a>
+            </div>
+            <div>
+                <div>Photo by Charles from Pexels</div>
+                <div>Photo de Sam Lion provenant de Pexels</div>
+                <div>Photo de Yaroslav Shuraev provenant de Pexels</div>
+                <div>Photo by Lum3n from Pexels</div>
+                <div>Photo de Simona Kidrič provenant de Pexels</div>
+                <div>de Dominika Roseclay provenant de Pexels</div>
+            </div>
+            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+        </section>  
+
+
         <!-- JAVASCRIPT -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
                 integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"

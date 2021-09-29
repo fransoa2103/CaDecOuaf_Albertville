@@ -20,14 +20,23 @@ html
     overflow-x:             hidden;
     letter-spacing:         0.2rem;
 }
-body {
-    font-size: var(--size-principal);
+footer {
+    width: 100%;
+    height: auto;
     background-image: url('design/img/bgimage_bone_pow.png');
     background-size: contain;
 }
 h1, h2, h3, h4, h5, h6, span {
     font-family:            'Casual';
 }
-nav {
-    background-color:       var(--color-bg-principal);
+
+.navbar-brand img {
+    width: 100px;
+    height: auto;
+
+}
+li a img {
+    opacity: 50%;
+    width:15px;
+    transform: rotate(-45deg);
 }
