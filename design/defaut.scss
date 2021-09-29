@@ -1,0 +1,33 @@
+$theme-colors: (
+    'primary': rgb(0, 128, 128)
+);
+@import "C:/Users/abeille/Desktop/CADECOUAF/node_modules/bootstrap/scss/bootstrap.scss";
+
+*, ::after, :before {
+    margin:                 0;
+    padding:                0;
+    box-sizing:             border-box;
+}
+
+@font-face {
+    font-family:            "Casual";
+    src:                    url("Casual-Regular.ttf"); }
+
+html
+{
+    scroll-behavior:        smooth;
+    user-select:            none;
+    overflow-x:             hidden;
+    letter-spacing:         0.2rem;
+}
+body {
+    font-size: var(--size-principal);
+    background-image: url('design/img/bgimage_bone_pow.png');
+    background-size: contain;
+}
+h1, h2, h3, h4, h5, h6, span {
+    font-family:            'Casual';
+}
+nav {
+    background-color:       var(--color-bg-principal);
+}
