@@ -1,5 +1,5 @@
 $theme-colors: (
-    'primary': rgb(0, 128, 128)
+    'primary': #008080
 );
 @import "C:/Users/abeille/Desktop/CADECOUAF/node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -53,9 +53,9 @@ img {
 // entre le passage grand écran et tablette les images sont trop déformées
 // ici je maximise les sections à 500px de façon à optimiser le format des images
 // 
-@media screen and (min-width:768px) and (max-width: 991px){
-    section {
-        max-width:  500px;
-        margin:     0 auto;
-    }
-}
+// @media screen and (min-width:768px) and (max-width: 991px){
+//     section {
+//         max-width:  500px;
+//         margin:     0 auto;
+//     }
+// }
