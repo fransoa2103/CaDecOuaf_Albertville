@@ -10057,6 +10057,7 @@ html {
   user-select: none;
   overflow-x: hidden;
   letter-spacing: 0.2rem;
+  font-size: 1.1rem;
 }
 
 footer {
@@ -10079,6 +10080,18 @@ li a img {
   opacity: 50%;
   width: 15px;
   transform: rotate(-45deg);
+}
+
+img {
+  object-fit: cover;
+  object-position: center;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  section {
+    max-width: 500px;
+    margin: 0 auto;
+  }
 }
 
 /*# sourceMappingURL=defaut.css.map */

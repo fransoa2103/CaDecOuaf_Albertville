@@ -36,7 +36,10 @@
 
         <header class="d-lg-flex"> 
             <div class="text-light px-3 text-lg-start text-center">
-                <h1 class="display-1 text-uppercase pt-3">ça déc'ouaf</h1>
+                <h1 class="display-1 text-uppercase pt-3">
+                    <img src="design\img\paw.svg" alt="" width="100px" style="transform:rotate(-45deg);">
+                    ça déc'ouaf
+                </h1>
                 <p class="display-6">Toilettage canin à domicile</p>
                 <p class="">Albertville et alentours*</p>
             </div>
@@ -51,7 +54,7 @@
                 <span class="navbar-toggler-icon"></span>
             </div>
             <div class="collapse navbar-collapse" id="menuDeroulant">
-                <ul class="navbar-nav ms-3 ">
+                <ul class="navbar-nav ms-3 " style="font-size: 1.1rem;">
                     <li class="nav-item">
                         <a href="#tarifs" class="nav-link d-flex">
                             <img class="me-1 align-self-center" src='design\img\paw.svg' alt="pow dog - patte de chien">Prestations & Tarifs
@@ -79,32 +82,46 @@
                     </li>
                 </ul>
             </div>
-            <div class="navbar-brand ms-3">
+            <div class="navbar-brand ms-3 d-none d-lg-block">
                 <img src="design\img\scissors-removebg-preview.svg" alt="">
             </div>
         </nav>
         
-        <!-- SECTION TEXTE -->
-        <section class="d-lg-flex">
-            <div class="m-1"  style="width: fit-content;">
-                <img src="design\img\humour_chien.jpg" class="card-img-top" alt="..." style="height: 50%;">
+        <!-- SECTION DEROULEMENT -->
+        <section id="#" class=" d-flex flex-column flex-lg-row mt-3 text-center text-md-start bg-dark text-primary rounded">
+            <div class="d-flex flex-column p-3">
+                <div>
+                    Bienvenue chez<br>
+                    <h2 class="display-6">
+                        Ça Déc'Ouaf<br>by Alexi@
+                    </h2>
+                </div>
+                <div>
+                    <p>Prendre soin de votre animal n'aura jamais été aussi simple.</p>
+                    <p class="text-uppercase">je m'occupe de tout!</p>
+                    <p>Je me déplace à domicile avec mon matériel et mes produits.
+                        Tout ce dont j'ai besoin, c'est un point d'eau et une pièce fermée.
+                        Confiez-moi votre animal et vous bénéficerez de mon savoir-faire!
+                        Moins de stress pour votre loulou et un gain de temps pour vous!</p>
+                </div>
             </div>
-            <!-- <p>Pas de stress pour votre loulou, un gain de temps pour vous !</p> -->
-            <p>Pour votre animal zéro stress et pour vous, une bonne sieste !</p>
-            <div class="m-1"  style="width: fit-content;">
-                <img src="design\img\sieste.jpg" class="card-img-top" alt="..." style="height: 50%;">
+            <div class="align-self-center p-1">
+                <div style="background:  #FFCF00; border-radius: 999%; ">
+                    <img src="design\img\humour_2.png" alt="...">
+                </div>
             </div>
         </section>
+        <hr>
         
         
         <!-- SECTION CARDS PRESTATIONS -->
-        <section id="tarifs" class="d-flex flex-column border p-lg-3 p-1">
+        <section id="tarifs" class="d-flex flex-column p-lg-3 p-1">
             <div class="">
                 <h3 class="display-6 text-lg-start text-center">Prestations & Tarifs</h3>
             </div>
             <div class="d-lg-flex justify-content-between">
                 <div class="card m-1"  style="width: fit-content;">
-                    <img src="design\img\bath_wash_nettoyage.jpg" class="card-img-top" alt="..." style="height: 50%;">
+                    <img src="design\img\bath_wash_nettoyage.jpg" class="card-img-top" alt="..." style="height: 250px; max-height: fit-content;">
                     <div class="card-body text-dark">
                         <h5 class="card-title">Tonte & bain</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptas omnis iste molestiae quia saepe ut neque, tenetur sapiente tempore?</p>
@@ -146,7 +163,7 @@
                     </div>
                 </div>
                 <div class="card m-1"  style="width: fit-content;">
-                    <img src="design\img\hair_coiffage_3.jpg" class="card-img-top" alt="..." style="height: 50%;">
+                    <img src="design\img\hair_coiffage_3.jpg" class="card-img-top" alt="..." style="height: 250px; max-height: fit-content; ">
                     <div class="card-body text-dark">
                         <h5 class="card-title">Ciseaux</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptas omnis iste molestiae quia saepe ut neque, tenetur sapiente tempore?</p>
@@ -188,7 +205,7 @@
                     </div>
                 </div>
                 <div class="card m-1"  style="width: fit-content;">
-                    <img src="design\img\hair_coiffage.jpg" class="card-img-top" alt="..." style="height: 50%;">
+                    <img src="design\img\hair_coiffage.jpg" class="card-img-top" alt="..." style="height: 250px; max-height: fit-content;">
                     <div class="card-body text-dark">
                         <h5 class="card-title">Épilations</h5>
                         <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptas omnis iste molestiae quia saepe ut neque, tenetur sapiente tempore?</p>
@@ -231,32 +248,27 @@
                 </div>
             </div>
         </section>
+        <hr>
         
-        <!-- SECTION DEROULEMENT -->
-        <section id="rayon" class="text-center my-5 display-6">
-            <div>
-                <p>
-                    Pour prendre soin de votre animal préféré, Vous n'aurez RIEN A FAIRE, je m'occupe de tout!
-                    Je me déplace à votre domicile avec du matériel professionnel, table, séchoir et produits.
-                    Tout ce dont j'ai besoin, c'est un point d'eau et une pièce fermée.
-                    Confiez-moi votre animal et vous bénéficerez de mon savoir-faire!
-                </p>
-            </div>
-        </section>
+        
 
         <!-- SECTION QUI SUIS JE -->
         <section id="alexia" class="text-center my-5 display-6">
             <div>
-                <p>Bonjour, je m'appelle Alexia, toiletteuse canin diplômée d'étét avec plus de 10 ans d'expériences.</p>
+                <p>Bonjour, je m'appelle Alexia, toiletteuse canin diplômée d'état avec plus de 10 ans d'expériences.</p>
             </div>
         </section>
         <!-- FOOTER -->
         <!-- <footer class="d-md-flex justify-content-center align-item-center bg-dark  text-center"> -->
             <footer class="d-md-flex justify-content-center align-item-center bg-ligth text-light text-center">
-                <!-- <img class="d-none d-md-block align-self-center m-3" src='design\img\paw.svg' alt="pow dog - patte de chien" style="opacity: 80%; max-width:150px; transform: rotate(-45deg);"> -->
-            <img class="m-3" src='design\img\carte_de_visite.png' alt="pow dog - patte de chien" style="border-radius: 20px 5px; opacity: 90%; max-width: 250px">
+                <div class="align-self-center p-1">
+                    <div>
+                    <img class="" src='design\img\dog_1.png' alt="" style="opacity: 90%; max-width: 80px; transform: rotate(15deg);">
+                    <img class="" src='design\img\carte_de_visite.png' alt="pow dog - patte de chien" style="border-radius: 20px 5px; opacity: 90%; max-width: 250px">
+                    </div>
+                </div>
             <div class="align-self-center">
-                <h3 class="display-4">Alexi@ by Ça Déc'Ouaf</h3>
+                <h2 class="display-4">Ça Déc'Ouaf by Alexi@</h2>
                 <p class="">Plus qu'un métier, une passion!</p>
             </div>
         </footer>
