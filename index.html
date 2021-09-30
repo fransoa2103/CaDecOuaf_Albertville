@@ -15,6 +15,7 @@
         <link
             rel="icon"
             href='design\img\paw_title.svg'
+            width = "100"
             type="image/x-icon"
         >
         <title>
@@ -32,179 +33,278 @@
         >
     </head>
     
-    <body class="container text-light bg-primary">
-
-        <header class="d-lg-flex"> 
-            <div class="flex-filltext-light px-3">
-                <h1 class="display-1 text-uppercase">ça déc'ouaf</h1>
-                <p class="display-6">Toilettage canin à domicile</p>
-                <p class="">Albertville et alentours*</p>
-            </div>
-            <div class="bg-primary" style="width: auto; align-self: center;">
-                <img src="design\img\pngwing.com.png" alt="four dogs" class="" style="max-width: 100%; height: auto;"> 
-            </div>
-        </header>
-        
-        <!-- menu navigation responsive -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <body class="container bg-primary" style="width: 100%;">
+        <!-- NAVBAR RESPONSIVE -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded">
             <div class="navbar-toggler ms-3" data-bs-toggle="collapse" data-bs-target="#menuDeroulant">
                 <span class="navbar-toggler-icon"></span>
             </div>
             <div class="collapse navbar-collapse" id="menuDeroulant">
-                <ul class="navbar-nav ms-3">
+                <ul class="navbar-nav ms-3 " style="font-size: 1.1rem;">
                     <li class="nav-item">
-                        <a href="#prestations" class="nav-link">
-                            <img class="me-1 align-self-center" src='design\img\paw.svg' alt="pow dog - patte de chien">Tarifs
+                        <a href="#tarifs" class="nav-link d-flex">
+                            <img class="me-1 align-self-center" src='design\img\paw.svg' alt="pow dog - patte de chien">Prestations & Tarifs
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="#rayon" class="nav-link d-flex">
-                            <img class="me-1 align-self-center" src='design\img\paw.svg' alt="pow dog - patte de chien">Rayon
+                            <img class="me-1 align-self-center" src='design\img\paw.svg' alt="pow dog - patte de chien">Rayon kms
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link d-flex">
+                        <a href="#contact" class="nav-link d-flex">
                             <img class="me-1 align-self-center" src='design\img\paw.svg' alt="pow dog - patte de chien">Contact
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link d-flex">
-                            <img class="me-1 align-self-center " src='design\img\paw.svg' alt="pow dog - patte de chien">moi, Alexia
+                        <a href="#alexia" class="nav-link d-flex">
+                            <img class="me-1 align-self-center " src='design\img\paw.svg' alt="pow dog - patte de chien">Qui suis-je?
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link d-flex">
+                        <a href="#carousel" class="nav-link d-flex">
                             <img class="me-1 align-self-center" src='design\img\paw.svg' alt="pow dog - patte de chien">Photos
                         </a>
                     </li>
                 </ul>
             </div>
-            <div class="navbar-brand ms-3">
+            <div class="navbar-brand ms-3 d-none d-lg-block">
                 <img src="design\img\scissors-removebg-preview.svg" alt="">
             </div>
         </nav>
+
+        <!-- EN-TETE HUMOUR 1-->
+        <div class="d-flex justify-content-center align-item-center my-1">
+            <div class="d-flex justify-content-center align-item-center" style="background:#FFCF00; border-radius: 99%; min-width: 300px;">
+                <img src="design\img\humour_1.png" alt="..." style="padding: 5%; max-width: 100%;"> 
+            </div>
+        </div>
+        
+        <!-- TITRE H1  -->
+        <div class="bg-dark text-primary text-center p-1">
+            <h1 class="display-6">
+                Ça Déc'Ouaf<br>by Alexi@
+            </h1>
+            <p>Albertville</p>
+            <p>Toilettage canin<br>à domicile</p>
+        </div>
+        
+        <!-- SECTION HUMOUR 4 CHIENS -->
+        <div class="d-flex justify-content-center">
+            <img src="design\img\pngwing.com.png" alt="four dogs" class="" style="background: #985642; max-width: 100%;"> 
+        </div>
+
+        <!-- SECTION INTRODUCTION -->
+        <div class="d-flex flex-column text-center text-light">
+            <p>
+                Prendre soin de votre animal n'aura jamais été aussi simple.
+            </p>
+            <p class="text-uppercase">
+                Je m'occupe de tout!
+            </p>
+            <p>
+                Je me déplace à domicile avec mon matériel et mes produits.
+                Tout ce dont j'ai besoin, c'est un point d'eau et une pièce fermée.
+                Confiez-moi votre animal et vous bénéficerez de mon savoir-faire!
+                Moins de stress pour votre loulou et un gain de temps pour vous!
+            </p>
+        </div>
+        
+        <!-- IMG HUMOUR 2-->
+        <div class="d-flex justify-content-center align-item-center my-1">
+            <div class="d-flex justify-content-center align-item-center" style="background:#FFCF00; border-radius: 99%; min-width: 300px;">
+                <img src="design\img\humour_2.png" alt="..." style="padding: 10%; max-width: 100%;"> 
+            </div>
+        </div>
+
+        <!-- --------------------------------------------------------------------------------------------------------------------- -->
+
+        <!-- SECTION CARDS PRESTATIONS -->
+        <section id="tarifs" class="d-flex flex-column p-lg-3 p-1">
+            <div class="">
+                <h3 class="display-6 text-lg-start text-center">Prestations & Tarifs</h3>
+            </div>
+            <div class="d-lg-flex justify-content-between">
+                <div class="card m-1"  style="width: fit-content;">
+                    <img src="design\img\bath_wash_nettoyage.jpg" class="card-img-top" alt="..." style="height: 250px; max-height: fit-content;">
+                    <div class="card-body text-dark">
+                        <h5 class="card-title">Tonte & bain</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptas omnis iste molestiae quia saepe ut neque, tenetur sapiente tempore?</p>
+                        <div class="text-dark">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_tonte_bain" aria-expanded="false" aria-controls="collapseExample">
+                                Tarifs
+                            </button>
+                            <div class="collapse" id="tarifs_tonte_bain">
+                                <div class="card card-body">
+                                    <table class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Poids</th>
+                                                <th>Tarif</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>2 à 5kgs</td>
+                                                <td>35€</td>
+                                            </tr>
+                                            <tr>
+                                                <td>6à 9kgs</td>
+                                                <td>35€</td>
+                                            </tr>
+                                            <tr>
+                                                <td>10 à 17kgs</td>
+                                                <td>35€</td>
+                                            </tr>
+                                            <tr>
+                                                <td>18 à 30kgs</td>
+                                                <td>35€</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="card m-1"  style="width: fit-content;">
+                    <img src="design\img\hair_coiffage_3.jpg" class="card-img-top" alt="..." style="height: 250px; max-height: fit-content; ">
+                    <div class="card-body text-dark">
+                        <h5 class="card-title">Ciseaux</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptas omnis iste molestiae quia saepe ut neque, tenetur sapiente tempore?</p>
+                        <div class="text-dark">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_ciseaux" aria-expanded="false" aria-controls="collapseExample">
+                                Tarifs
+                            </button>
+                            <div class="collapse" id="tarifs_ciseaux">
+                                <div class="card card-body">
+                                    <table id="tarif" class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Poids</th>
+                                                <th>Tarif</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>2 à 5kgs</td>
+                                                <td>35€</td>
+                                            </tr>
+                                            <tr>
+                                                <td>6à 9kgs</td>
+                                                <td>35€</td>
+                                            </tr>
+                                            <tr>
+                                                <td>10 à 17kgs</td>
+                                                <td>35€</td>
+                                            </tr>
+                                            <tr>
+                                                <td>18 à 30kgs</td>
+                                                <td>35€</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+                <div class="card m-1"  style="width: fit-content;">
+                    <img src="design\img\hair_coiffage.jpg" class="card-img-top" alt="..." style="height: 250px; max-height: fit-content;">
+                    <div class="card-body text-dark">
+                        <h5 class="card-title">Épilations</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium voluptas omnis iste molestiae quia saepe ut neque, tenetur sapiente tempore?</p>
+                        <div class="text-dark">
+                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_epilations" aria-expanded="false" aria-controls="collapseExample">
+                                Tarifs
+                            </button>
+                            <div class="collapse" id="tarifs_epilations">
+                                <div class="card card-body">
+                                    <table id="tarif" class="table">
+                                        <thead>
+                                            <tr>
+                                                <th>Poids</th>
+                                                <th>Tarif</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>2 à 5kgs</td>
+                                                <td>35€</td>
+                                            </tr>
+                                            <tr>
+                                                <td>6à 9kgs</td>
+                                                <td>35€</td>
+                                            </tr>
+                                            <tr>
+                                                <td>10 à 17kgs</td>
+                                                <td>35€</td>
+                                            </tr>
+                                            <tr>
+                                                <td>18 à 30kgs</td>
+                                                <td>35€</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        
         
 
-        <!-- SECTIONS -->
-        <section class="text-center">
-            <p>Pas de stress pour votre loulou, un gain de temps pour vous!</p>
-            <p>Bonjour, je suis Alexia, toiletteuse canin diplômée et championne de France 2010 de toilettage.</p>
-        </section>
-        <section class="text-center">
-            <p>Pour prendre soin de votre animal préféré, Vous n'aurez RIEN A FAIRE, je m'occupe de tout!
-            Je me déplace à votre domicile avec du matériel professionnel, table, séchoir et produits.
-            Tout ce dont j'ai besoin, c'est un point d'eau et une pièce fermée.
-            Confiez-moi votre animal et vous bénéficerez de mon savoir-faire!</p>
-        </section>
+        <!-- ALEXIA -->
+        <div class="d-flex justify-content-center align-item-center my-1">
+            <div class="d-flex justify-content-center align-item-center" style="background:#FFCF00; border-radius: 99%; min-width: 300px;">
+                <img src="design\img\moi_alexia.jpg" alt="..." style="padding: 10%; max-width: 100%; border-radius: 99%"> 
+            </div>
+        </div>
+        <div id="alexia" class="text-center text-light">
+                <p>Bonjour, je m'appelle Alexia, toiletteuse canin diplômée d'état. Cahmpionne de France 2010 de toilettage et 10 ans d'expériences.</p>
+        </div>
 
-        <table id="prestations" class="table">
-            <h2 class="text-center">PRESTATIONS & TARIFS 2021</h2>
-            <thead>
-                <tr>
-                    <th>Poids</th>
-                    <th>Prestation</th>
-                    <th>Tarif</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>2 à 5kgs</td>
-                    <td>Tonte + bain</td>
-                    <td>35€</td>
-                    <tr>
-                        <td></td>
-                        <td>Ciseaux</td>
-                        <td>40€</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Epilation à partir de</td>
-                        <td>60€</td>
-                    </tr>
-                </tr>
-                <tr>
-                    <td>6à 9kgs</td>
-                    <td>Tonte + bain</td>
-                    <td>35€</td>
-                    <tr>
-                        <td></td>
-                        <td>Ciseaux</td>
-                        <td>40€</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Epilation à partir de</td>
-                        <td>60€</td>
-                    </tr>
-                </tr>
-                <tr>
-                    <td>10 à 17kgs</td>
-                    <td>Tonte + bain</td>
-                    <td>35€</td>
-                    <tr>
-                        <td></td>
-                        <td>Ciseaux</td>
-                        <td>40€</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Epilation à partir de</td>
-                        <td>60€</td>
-                    </tr>
-                </tr>
-                <tr>
-                    <td>18 à 30kgs</td>
-                    <td>Tonte + bain</td>
-                    <td>35€</td>
-                    <tr>
-                        <td></td>
-                        <td>Ciseaux</td>
-                        <td>40€</td>
-                    </tr>
-                    <tr>
-                        <td></td>
-                        <td>Epilation à partir de</td>
-                        <td>60€</td>
-                    </tr>
-                </tr>
-            </tbody>
-        </table>
-            
+        <!-- CAROUSEL -->
+        <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="design\img\slide_1.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="design\img\slide_2.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="design\img\slide_3.jpg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+        <hr>
+
+
+
         <!-- FOOTER -->
-        <footer class="d-flex justify-content-center bg-dark">
-            <img class="align-self-center p-1" src='design\img\paw.svg' alt="pow dog - patte de chien" style="opacity: 80%; width:150px; transform: rotate(-45deg);">
-            <div class="justify-item-center align-item-center text-light">
-                <h3 class="display-4 text-center">Alexia by ça Déc'Ouaf</h3>
-                <p class="display-6 text-center">Plus qu'un métier, une passion!</p>
-            </div>
-        </footer>
-
-
-        <!-- LIENS EXTERNES -->
-        <section class="d-md-flex justify-content-center liens text-start">
-            <div>
-                <a href = "https://www.purina.fr/chiens/sante-nutrition" title = "PURINA">PURINA</a>
-            </div>
-            <div>
-                <div>Photo by Charles from Pexels</div>
-                <div>Photo de Sam Lion provenant de Pexels</div>
-                <div>Photo de Yaroslav Shuraev provenant de Pexels</div>
-                <div>Photo by Lum3n from Pexels</div>
-                <div>Photo de Simona Kidrič provenant de Pexels</div>
-                <div>de Dominika Roseclay provenant de Pexels</div>
-            </div>
-            <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        </section>  
-
+        <div class="text-center">
+            <img class="" src='design\img\carte_de_visite.png' alt="pow dog - patte de chien" style="border-radius: 20px 5px; opacity: 90%; max-width: 250px">
+        </div>
+        <div class="text-center">
+            <h2 class="display-6">Ça Déc'Ouaf by Alexi@</h2>
+            <p class="text-light">Plus qu'un métier, une passion!</p>
+        </div>
 
         <!-- JAVASCRIPT -->
-        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-                integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-                crossorigin="anonymous">
-        </script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-                integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-                crossorigin="anonymous">
-        </script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
     </body>
 </html>
