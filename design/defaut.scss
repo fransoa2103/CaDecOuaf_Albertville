@@ -58,13 +58,18 @@ li a img {
     transform: rotate(-45deg);
 }
 
-
+.justifie {
+    text-align: justify;
+}
 // 
-// ALL IMG FORMAT ~ TOUTES LES IMAGES
+// CAROUSEL 
 //
-img {
-    object-fit: cover;
-    object-position: center;
+div.carousel-item img
+{
+    max-width: 50%;
+    min-width: 320px;
+    height: auto;
+    margin: 0 auto;
 }
 // 
 // MEDIA QUERIES
