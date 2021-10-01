@@ -34,7 +34,7 @@
     </head>
     <body class="container bg-primary" style="width: 100%;">
 
-        <!-- NAVBAR RESPONSIVE -->
+        <!-- NAVBAR -->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark rounded mt-1">
             <div class="navbar-toggler ms-3" data-bs-toggle="collapse" data-bs-target="#menuDeroulant">
                 <span class="navbar-toggler-icon"></span>
@@ -47,7 +47,7 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a href="#rayon" class="nav-link d-flex">
+                        <a href="#zoneGeographique" class="nav-link d-flex">
                             <img class="me-1 align-self-center" src='design\img\paw.svg' alt="pow dog - patte de chien">Zone géographique
                         </a>
                     </li>
@@ -73,15 +73,13 @@
             </div>
         </nav>
         
-        <!-- EN-TETE HUMOUR 1-->
+        <!-- EN-TETE -->
         <section class="d-md-flex justify-content-around align-item-center bg-dark my-1 rounded">
             <div class="d-flex justify-content-center align-item-center">
                 <div class="d-flex justify-content-center align-item-center m-1" style="background:#FFCF00; border-radius: 99%; min-width: 290px;">
                     <img src="design\img\humour_1.png" alt="..." class="img-fluid"> 
                 </div>
             </div>
-            
-            <!-- TITRE H1  -->
             <div class="d-flex flex-column justify-item-center align-self-center text-center px-3">
                 <div class="text-light">
                     <h1 class="display-2">
@@ -97,15 +95,15 @@
             </div>
         </section>  
         
-        <!-- SECTION INTRODUCTION -->
+        <!-- INTRODUCTION -->
         <section class="d-md-flex justify-content-around align-item-center bg-dark my-1 rounded">
             <div class="d-flex flex-column justify-content-center text-light m-1 p-4">
                 <p class="justifie">
                     Prendre soin de votre animal n'aura jamais été aussi simple.
                 </p>
-                <p class="text-uppercase text-center text-lg-start fw-bold text-dark rounded p-3" style="background-color: #FFCF00;">
+                <h3 class="text-uppercase text-center fw-bold text-dark rounded p-3" style="background-color: #FFCF00;">
                     Je m'occupe de tout!
-                </p>
+                </h3>
                 <p class="justifie">
                     Je me déplace à domicile avec mon matériel et mes produits.
                     Tout ce dont j'ai besoin, c'est un point d'eau et une pièce fermée.
@@ -122,20 +120,20 @@
         </section>
         <hr>
         
-        <!-- SECTION HUMOUR 4 CHIENS -->
-        <div class="position-relative d-none d-md-flex  justify-content-center" style="z-index: 1;">
+        <!-- SECTION+ IF SIZE > 762PX  -->
+        <section class="position-relative d-none d-md-flex  justify-content-center" style="z-index: 1;">
             <!-- <img src="design\img\pngwing.com.png" alt="four dogs" class="img-fluid" style="max-width: 100%;">  -->
             <img src="design\img\pngwing.com.png" alt="four dogs" class="img-fluid"> 
-        </div>
-        <hr class="d-none d-md-flex">
+            <hr>
+        </section>
 
-        <!-- SECTION CARDS PRESTATIONS -->
-        <section id="tarifs" class="d-flex flex-column p-lg-3 p-1">
-            <div class="">
-                <h3 class="display-6 text-xl-start text-light text-center">Prestations & Tarifs</h3>
+        <!-- TARIFS PRESTATIONS -->
+        <section id="tarifs" class="d-flex flex-column p-1 p-lg-2 bg-dark rounded">
+            <div class="d-flex justify-content-center justify-content-lg-start pb-1">
+                <span class="d-block display-4 text-light rounded p-3 bg-primary text-center">Prestations & Tarifs</span>
             </div>
             <div class="d-lg-flex justify-content-between">
-                <div class="card m-1"  style="width: fit-content;">
+                <div class="card my-1"  style="width: fit-content;">
                     <img src="design\img\bath_wash_nettoyage.jpg" class="card-img-top" alt="..." style="height: 250px; max-height: fit-content;">
                     <div class="card-body text-dark">
                         <h5 class="card-title">Tonte & bain</h5>
@@ -219,7 +217,7 @@
                         </div> 
                     </div>
                 </div>
-                <div class="card m-1"  style="width: fit-content;">
+                <div class="card my-1"  style="width: fit-content;">
                     <img src="design\img\hair_coiffage.jpg" class="card-img-top" alt="..." style="height: 250px; max-height: fit-content;">
                     <div class="card-body text-dark">
                         <h5 class="card-title">Épilations</h5>
@@ -267,7 +265,7 @@
         
         <!-- ALEXIA -->
         <section id="alexia" class="d-flex flex-column flex-md-row justify-content-center align-item-center bg-dark rounded">
-            <div class="d-flex justify-content-center align-item-center mt-3">
+            <div class="d-flex justify-content-center align-item-center my-3">
                 <div class="d-flex justify-content-center align-item-center" style="background:#FFCF00; border-radius: 99%; max-width: 50%;min-width:300px">
                     <img src="design\img\moi_alexia.jpg" alt="..." class="img-fluid" style="padding: 5%; max-width: 100%; border-radius: 99%"> 
                 </div>
@@ -309,14 +307,23 @@
         </section>
         <hr>
 
+        <!-- ZONE GEOGRAPHIQUE -->
+        <section id="zoneGeographique" class="text-light text-center bg-dark rounded" style="width: 100%;">
+            <h6 class="display-6 p-2">ZONE GEOGRAPHIQUE</h6>
+            <p>Je me déplace à l'intérieur du cercle rouge autour d'ALBERTVILLE.</p>
+            <p class="text-center fw-bold text-dark rounded p-1 mx-5" style="background-color: #FFCF00;">
+                Mais contactez-moi pour valider votre adresse!
+            </p>
+            <img src="design\img\map_plan_albertville_1.png" class="d-block" alt="..." style="min-width: 300px; max-width: 100%;  margin: 0 auto;">
+        </section>
+        <hr>
+
         <!-- FOOTER -->
-        <div class="text-center">
-            <img class="" src='design\img\carte_de_visite.png' alt="pow dog - patte de chien" style="border-radius: 20px 5px; opacity: 90%; max-width: 250px">
-        </div>
-        <div class="text-center">
-            <h2 class="display-6">Ça Déc'Ouaf by Alexi@</h2>
-            <p class="text-light">Plus qu'un métier, une passion!</p>
-        </div>
+        <footer class="text-center text-light">
+            <img class="mb-2" src='design\img\carte_de_visite.png' alt="carte de visite ça découaf" style="border-radius: 20px 5px; opacity: 90%; max-width: 300px">
+            <h2 class="display-6 bg-dark card around p-3">Ça Déc'Ouaf by Alexi@</h2>
+            <p>Plus qu'un métier, une passion!</p>
+        </footer>
         
         <!-- JAVASCRIPT -->
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
