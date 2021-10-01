@@ -1,6 +1,16 @@
 $theme-colors: (
     'primary': #008080
 );
+    
+$display-font-sizes: (
+    1: 3rem,
+    2: 2.5rem,
+    3: 2rem,
+    4: 1.75rem,
+    5: 1.5rem,
+    6: 1.25rem
+);
+        
 @import "C:/Users/abeille/Desktop/CADECOUAF/node_modules/bootstrap/scss/bootstrap.scss";
 
 *, ::after, :before {
@@ -21,16 +31,22 @@ html
     letter-spacing:         0.2rem;
     font-size: 1.1rem;
 }
-footer {
-    width: 100%;
+body {
+    background-color: #008080;
     height: auto;
-    background-image: url('design/img/bgimage_bone_pow.png');
-    background-size: contain;
 }
+
 h1, h2, h3, h4, h5, h6, span {
     font-family:            'Casual';
 }
 
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+a:link {
+    color: white;
+}
 .navbar-brand img {
     width: 100px;
     height: auto;
@@ -41,12 +57,19 @@ li a img {
     width:15px;
     transform: rotate(-45deg);
 }
+
+.justifie {
+    text-align: justify;
+}
 // 
-// ALL IMG FORMAT ~ TOUTES LES IMAGES
+// CAROUSEL 
 //
-img {
-    object-fit: cover;
-    object-position: center;
+div.carousel-item img
+{
+    max-width: 50%;
+    min-width: 320px;
+    height: auto;
+    margin: 0 auto;
 }
 // 
 // MEDIA QUERIES
