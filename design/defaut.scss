@@ -1,5 +1,6 @@
 $theme-colors: (
-    'primary': #008080
+    'primary': rgb(0, 128, 128),
+    'yellow': #ffcf00
 );
     
 $display-font-sizes: (
@@ -8,10 +9,10 @@ $display-font-sizes: (
     3: 2rem,
     4: 1.75rem,
     5: 1.5rem,
-    6: 1.25rem
+    6: 1.00rem
 );
         
-@import "C:/Users/abeille/Desktop/CADECOUAF/node_modules/bootstrap/scss/bootstrap.scss";
+@import "C:/xampp/htdocs/CADECOUAF/node_modules/bootstrap/scss/bootstrap.scss";
 
 *, ::after, :before {
     margin:                 0;
@@ -21,7 +22,8 @@ $display-font-sizes: (
 
 @font-face {
     font-family:            "Casual";
-    src:                    url("Casual-Regular.ttf"); }
+    src:                    url("Casual-Regular.ttf");
+}
 
 html
 {
@@ -43,8 +45,9 @@ h1, h2, h3, h4, h5, h6, span {
 a {
     text-decoration: none;
     cursor: pointer;
+    color: grey;
 }
-a:link {
+a:hover {
     color: white;
 }
 .navbar-brand img {
@@ -58,27 +61,24 @@ li a img {
     transform: rotate(-45deg);
 }
 
-.justifie {
-    text-align: justify;
-}
 // 
 // CAROUSEL 
 //
 div.carousel-item img
 {
-    max-width: 50%;
+    max-width: 75%;
     min-width: 320px;
     height: auto;
     margin: 0 auto;
 }
-// 
+
 // MEDIA QUERIES
 // entre le passage grand écran et tablette les images sont trop déformées
 // ici je maximise les sections à 500px de façon à optimiser le format des images
-// 
-// @media screen and (min-width:768px) and (max-width: 991px){
-//     section {
-//         max-width:  500px;
-//         margin:     0 auto;
-//     }
-// }
+
+@media screen and (min-width:768px) and (max-width: 991px){
+    section#tarifs {
+        max-width:  500px;
+        margin:     0 auto;
+    }
+}
