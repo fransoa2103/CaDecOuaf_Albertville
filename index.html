@@ -72,13 +72,13 @@
         <section class="d-md-flex justify-content-around align-item-center bg-dark my-1 rounded">
             <div class="d-flex justify-content-center align-item-center">
                 <div class="d-flex justify-content-center align-self-center">
-                    <img  class="p-2" style="max-width: 300px; min-height: 250px; border-radius: 15px;" src="design\img\albertville_toiletteur_cadecouaf_carte_de_visite.png" alt="toilettage humour chien cadecouaf albertville by alexia"> 
+                    <img  class="p-2" style="max-width: 300px; min-height: auto; border-radius: 15px;" src="design\img\albertville_toiletteur_cadecouaf_carte_de_visite.png" alt="toilettage humour chien cadecouaf albertville by alexia"> 
                 </div>
             </div>
             <div class="d-flex flex-column justify-item-center align-self-center text-center px-3">
                 <div class="text-light">
                     <h1 class="display-2">Ça Déc'Ouaf</h1>
-                    <span class="display-6">by Alexia</span>
+                    <span class="display-4">by Alexia</span>
                     <h2>Toilettage canin à domicile</h2>
                     <address class="text-light">
                         <a class="display-4" href="tel:+33673799112">06.73.79.91.12</a><br>
@@ -111,147 +111,173 @@
         </section>
         <hr>
         
-        <!-- SECTION bonus IF screen size > 762PX  -->
-        <section class="position-relative d-none d-md-flex  justify-content-center" style="z-index: 1;">
-            <img src="design\img\albertville_toiletteur_cadecouaf_chiens_x4_humour.png" alt="chien humour cadecouaf by alexia albertville" class="img-fluid"> 
-            <hr>
-        </section>
+        <!-- TARIFS & PRESTATIONS -->
+        <section id="tarifs" class="d-flex flex-column p-1 bg-dark rounded">
+            <!-- <div class="d-flex justify-content-center justify-content-lg-center pb-1"> -->
+                <!-- <p class="display-4 text-light rounded bg-primary text-center">Prestations & Tarifs</p> -->
+            <h3 class="display-4 text-light rounded p-3 bg-primary text-center">Prestations & Tarifs</h3>
 
-        <!-- TARIFS PRESTATIONS -->
-        <section id="tarifs" class="d-flex flex-column p-1 p-lg-2 bg-dark rounded">
-            <div class="d-flex justify-content-center justify-content-lg-center pb-1">
-                <h3 class="display-4 text-light rounded p-3 bg-primary text-center">Prestations & Tarifs</h3>
-            </div>
+            <!-- </div> -->
             <div class="d-lg-flex justify-content-between">
-                <div class="card my-1 fw-bold"  style="width: fit-content;">
+                <!-- *************************** -->
+                <!--         CARD 1              -->
+                <!-- *************************** -->
+                <div class="card"  style="width: fit-content;">
                     <img src="design\img\albertville_toiletteur_cadecouaf_chien_tarif_shampoing.jpg" class="card-img-top" alt="" style="height: 250px; max-height: fit-content;">
                     <div class="card-body text-dark">
-                        <h5 class="card-title bg-dark text-light px-2 py-1 rounded">Tonte</h5>
-                        <p class="card-text">Même si pour beaucoup de maîtres tondre son chien est une question d’esthétique, la tonte est nécessaire pour le bien-être et la bonne santé du chien, quelle que soit sa race. Je vous conseille d'effectuer la tonte au moins deux fois par an.</p>
-                        <div class="text-dark">
-                            <button class="btn btn-primary mb-2" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_tonte_bain" aria-expanded="false" aria-controls="collapseExample">
-                                Tarifs
-                            </button>
-                            <div class="collapse" id="tarifs_tonte_bain">
-                                <div class="card card-body" style="font-size: small;">
-                                    <table class="table" >
-                                        <thead>
-                                            <tr>
-                                                <th>Poids</th>
-                                                <th>Tarif</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>jusqu'à 5kgs</td>
-                                                <td>40/45€*</td>
-                                            </tr>
-                                            <tr>
-                                                <td>entre 5 et 10kgs</td>
-                                                <td>45/50€*</td>
-                                            </tr>
-                                            <tr>
-                                                <td>au-dela de 10kgs</td>
-                                                <td>50€ de l'heure</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <b>* Le tarif peut varier selon le gabarit et l'état du chien</b>
-                                </div>
+                        <div style="min-height: 320px;">
+                            <h5 class="card-title bg-primary text-light px-2 py-2 rounded">Tonte</h5>
+                            <p class="card-text">Même si pour beaucoup de maîtres tondre son chien est une question d’esthétique, la tonte est nécessaire pour le bien-être et la bonne santé du chien, quelle que soit sa race. Je vous conseille d'effectuer la tonte au moins deux fois par an.</p>
+                        </div>
+                        <button class="btn btn-primary my-2" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_tonte_bain" aria-expanded="false" aria-controls="collapseExample">
+                            Tarifs
+                        </button>
+                        <div class="collapse" id="tarifs_tonte_bain">
+                        <div class="card card-body" >
+                            <table class="table" >
+                                <thead>
+                                    <tr>
+                                        <th>Poids</th>
+                                        <th>Tarifs *</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>2 à 5kgs</td>
+                                        <td>40/45€</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 à 10kgs</td>
+                                        <td>45/50€</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11 à 30kgs</td>
+                                        <td>50€ de l'heure</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="d-flex">
+                                <img class="patte_svg align-self-start" src='design\img\albertville_toiletteur_cadecouaf_chien_patte_red.svg' alt="logo patte de chien cadecouaf by alexia albertville">
+                                <p class="bg-danger text-light ms-2 p-2 display-6 rounded">* Les tarifs varient selon le gabarit et l'état du chien!</p>
                             </div>
-                        </div> 
+                        </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card m-lg-1 "  style="width: fit-content;">
+                <!-- *************************** -->
+                <!--         CARD 2              -->
+                <!-- *************************** -->
+                <div class="card"  style="width: fit-content;">
                     <img src="design\img\albertville_toiletteur_cadecouaf_chien_tarif_coupe_ciseaux.jpg" class="card-img-top" alt="..." style="height: 250px; max-height: fit-content; ">
                     <div class="card-body text-dark">
-                        <h5 class="card-title">Ciseaux</h5>
-                        <p class="card-text">La coupe ciseaux est particulièrement utile chez les chiens à poils longs. Les ciseaux classiques permettent une coupe droite et simple.
-                            Les ciseaux à sculpter permettent d'éliminer les nœuds. Les ciseaux courbes donnent un effet d'arrondi et de volume.
-                        </p>
-                        <div class="text-dark">
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_ciseaux" aria-expanded="false" aria-controls="collapseExample">
-                                Tarifs
-                            </button>
-                            <div class="collapse" id="tarifs_ciseaux">
-                                <div class="card card-body">
-                                    <table id="tarif" class="table">
-                                        <thead>
-                                            <tr>
-                                                <th>Poids</th>
-                                                <th>Tarif</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>jusqu'à 5kgs</td>
-                                                <td>45/50€*</td>
-                                            </tr>
-                                            <tr>
-                                                <td>entre 5 et 10kgs</td>
-                                                <td>55/60€*</td>
-                                            </tr>
-                                            <tr>
-                                                <td>au-dela de 10kgs</td>
-                                                <td>50€ de l'heure</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <b>* Le tarif peut varier selon le gabarit et l'état du chien</b>
-                                </div>
+                        <div style="min-height: 320px;">
+                            <h5 class="card-title bg-primary text-light px-2 py-2 rounded">Ciseaux</h5>
+                            <p class="card-text">La coupe ciseaux est particulièrement utile chez les chiens à poils longs. Les ciseaux classiques permettent une coupe droite et simple.
+                                Les ciseaux à sculpter permettent d'éliminer les nœuds. Les ciseaux courbes donnent un effet d'arrondi et de volume.
+                            </p>
+                        </div>
+                        <button class="btn btn-primary my-2" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_ciseaux" aria-expanded="false" aria-controls="collapseExample">
+                            Tarifs
+                        </button>
+                        <div class="collapse" id="tarifs_ciseaux">
+                        <div class="card card-body">
+                            <table id="tarif" class="table">
+                                <thead>
+                                    <tr>
+                                        <th>Poids</th>
+                                        <th>Tarifs *</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>2 à 5kgs</td>
+                                        <td>45/50€*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6 à 10kgs</td>
+                                        <td>55/60€*</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11 à 30kgs</td>
+                                        <td>50€ de l'heure</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="d-flex">
+                                <img class="patte_svg align-self-start" src='design\img\albertville_toiletteur_cadecouaf_chien_patte_red.svg' alt="logo patte de chien cadecouaf by alexia albertville">
+                                <p class="bg-danger text-light ms-2 p-2 display-6 rounded">* Les tarifs varient selon le gabarit et l'état du chien!</p>
                             </div>
-                        </div> 
+                        </div>
+                        </div>
                     </div>
                 </div>
-                <div class="card my-1"  style="width: fit-content;">
+                <!-- *************************** -->
+                <!--         CARD 3              -->
+                <!-- *************************** -->
+                <div class="card"  style="width: fit-content;">
                     <img src="design\img\albertville_toiletteur_cadecouaf_chien_tarif_epilation.jpg" class="card-img-top" alt="..." style="height: 250px; max-height: fit-content;">
                     <div class="card-body text-dark">
-                        <h5 class="card-title">Épilations</h5>
-                        <p class="card-text">C'est une technique courante, qui ne les fait pas souffrir. Cela ne correspond en rien aux techniques d'épilation chez l'être humain! cette technique arrache le sous-poil mort. Ce qui allège et embellit le pelage du chien.</p>
-                        <div class="text-dark">
-                            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_epilations" aria-expanded="false" aria-controls="collapseExample">
-                                Tarifs
-                            </button>
-                            <div class="collapse" id="tarifs_epilations">
-                                <div class="card card-body">
-                                    <table id="tarif" class="table">
-                                        <thead>
-                                            <tr>
-                                                <th>Poids</th>
-                                                <th>Tarif</th>
-                                            </tr>
-                                        </thead>
-                                        <tbody>
-                                            <tr>
-                                                <td>jusqu'à 5kgs</td>
-                                                <td>55/65€*</td>
-                                            </tr>
-                                            <tr>
-                                                <td>entre 5 et 10kgs</td>
-                                                <td>70/95€*</td>
-                                            </tr>
-                                            <tr>
-                                                <td>au-dela de 10kgs</td>
-                                                <td>60€ de l'heure</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                    <b>* Le tarif peut varier selon le gabarit et l'état du chien</b>
-                                </div>
+                        <div  style="min-height: 320px;">
+                            <h5 class="card-title bg-primary text-light px-2 py-2 rounded">Épilations</h5>
+                            <p class="card-text">C'est une technique courante, qui ne les fait pas souffrir. Cela ne correspond en rien aux techniques d'épilation chez l'être humain! cette technique arrache le sous-poil mort. Ce qui allège et embellit le pelage du chien.</p>
+                        </div>
+                        <button class="btn btn-primary my-2" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_epilations" aria-expanded="false" aria-controls="collapseExample">
+                            Tarifs
+                        </button>
+                        <div class="collapse" id="tarifs_epilations">
+                            <div class="card card-body">
+                                <table id="tarif" class="table">
+                                    <thead>
+                                        <tr>
+                                            <th>Poids</th>
+                                            <th>Tarifs *</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>2 à 5kgs</td>
+                                            <td>55/65€*</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6 à 10kgs</td>
+                                            <td>70/95€*</td>
+                                        </tr>
+                                        <tr>
+                                        <td>11 à 30kgs</td>
+                                        <td>60€ de l'heure</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <div class="d-flex">
+                                <img class="patte_svg align-self-start" src='design\img\albertville_toiletteur_cadecouaf_chien_patte_red.svg' alt="logo patte de chien cadecouaf by alexia albertville">
+                                <p class="bg-danger text-light ms-2 p-2 display-6 rounded">* Les tarifs varient selon le gabarit et l'état du chien!</p>
                             </div>
-                        </div> 
-                    </div>
+                        </div>
+                    </div> 
+                </div>
                 </div>
             </div>
         </section>
         <hr>
-        <!-- PRESTATIONS COMPLEMENTAIRES -->
-        <section class="bg-dark text-light p-3">
-            <p>Prestations complémentaires</p>
-            <div class="bg-light text-dark">
-                <p><b>Ongles</b> * de 5€ à 8€</p>
-                <p><b>Ongles</b> * de 5€ à 8€</p>
-                <p>Rongeur (NAC) 10€ la demi-heure</p>
+
+        <!-- AUTRES PRESTATIONS -->
+        <section class="card">
+            <h3 class="display-4 text-light rounded p-3 bg-primary text-center">Autres prestations</h3>
+            <div class="d-flex">
+                <img src="design\img\albertville_toiletteur_cadecouaf_chien_truffe.jpg" class="d-lg-none card-img-top img-fluid" alt="" >
+                <img src="design\img\albertville_toiletteur_cadecouaf_chiens_x4_humour.png" class="d-none d-lg-block card-img-top img-fluid" alt="">
+            </div>
+            <div class="card-body bg-ligth text-dark">
+                <div class="card-text ">
+                    <h5 class="card-title bg-primary text-light px-2 py-2 rounded">Ongles *</h5>
+                    <span>entre 5€ et 8€</span>
+                    <div class="d-flex mt-2">
+                        <img class="patte_svg align-self-start" src='design\img\albertville_toiletteur_cadecouaf_chien_patte_red.svg' alt="logo patte de chien cadecouaf by alexia albertville">
+                        <p class="bg-danger text-light ms-2 p-2 display-6 rounded">* Le tarif varient selon le gabarit et l'état du chien!</p>
+                    </div>
+                </div>
+                <h5 class="card-title bg-primary text-light px-2 py-2 rounded">NAC</h5>
+                <span>Rongeurs 10€ la 1/2 heure</span>
             </div>
         </section>
         <hr>
@@ -360,23 +386,54 @@
         <hr>
 
         <!-- LIENS -->
-        <section class="d-flex flex-column flex-md-row justify-content-center align-item-center rounded">
-            <img class="mb-2" src='design\img\albertville_toiletteur_cadecouaf_humour_2.png' alt="humour chien toilettage Ça Déc'Ouaf albertville by alexia" style="border-radius: 20px 5px; opacity: 90%; max-width: 300px">
-            <h3 class="display-4 text-light text-center bg-dark around p-3">Plus qu'un métier, une passion!</h3>
-            <p class="text-center">Liens utiles</p>
-            <div class="d-flex justify-content-center">
-                <a href="https://www.facebook.com/osmosekarine">
-                    <img src="design\img\albertville_toiletteur_osmose_salon-removebg-preview.svg" alt="" style="min-width:120px; max-height: 120px;">
-                </a>
-                <a href="https://www.la-spa.fr/maltraitances">
-                    <img src="design\img\Logo_de_la_SPA__France_.svg" alt="" style="min-width:120px; max-height: 120px;">
-                </a>
+        <section class="d-flex flex-column flex-xl-row bg-dark rounded p-1">
+            <div class="d-flex flex-column flex-md-row bg-dark">
+                <!-- bloc 1 image humour -->
+                <img    class="align-self-center rounded" src='design\img\albertville_toiletteur_cadecouaf_humour_2.png' alt="humour chien toilettage Ça Déc'Ouaf albertville by alexia"
+                        style="max-width: 300px;">
+                        <!-- style="max-width: 300px; border: solid 1px #008080;"> -->
+                <!-- bloc 2 love heart -->
+                <div class="d-flex flex-column flex-lg-row align-items-center p-1 rounded" style="border: solid 1px #008080;">
+                    <div class="d-flex flex-column flex-lg-row align-items-center p-3">
+                        <img  src="design\img\dog_paw_heart.svg" alt="paw dog with heart" style="min-width:120px; max-height: 120px;">
+                        <h3 class="display-4 text-light text-center">Plus qu'un métier, une passion!</h3>
+                    </div>
+                </div>
             </div>
+            <div class="d-flex flex-column flex-md-row bg-dark">
+            <!-- bloc 3 réseaux sociaux social network-->
+            <div class="d-flex flex-column justify-content-center rounded p-1" style="border: solid 1px #008080;">
+                <div class="d-flex justify-content-center bg-primary rounded" style="width: 100%; min-height: 75px; max-height: 33%;">
+                    <div class="display-5 text-dark fw-bold align-self-center">Liens utiles</div>
+                </div>
+                <div class="d-flex flex-column flex-lg-row align-items-center p-3">
+                    <a class="my-2" href="https://www.facebook.com/osmosekarine" target="blank">
+                        <img  src="design\img\logo_facebook.svg" alt="Facebook ca dec'ouaf by alexi Albertville" style="min-width:120px; max-height: 50px;">
+                    </a>
+                    <a  href="https://www.la-spa.fr/maltraitances" target="blank">
+                        <img  src="design\img\logo_instagram.svg" alt="instagram ca dec'ouaf by alexi Albertville" style="min-width:120px; max-height: 50px;">
+                    </a>
+                </div>
+            </div>
+            <!-- bloc 4 links -->
+            <div class="d-flex flex-column justify-content-center bg-primary rounded p-1" style="border: solid 1px #292b2c;">
+                <div class="d-flex justify-content-center bg-dark rounded" style="width: 100%; min-height: 75px; height: 33%;">
+                    <div class="display-5 text-primary fw-bold align-self-center">Liens utiles</div>
+                </div>
+                <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center p-2">
+                    <a  class="" href="https://www.facebook.com/osmosekarine" target="blank">
+                        <img  src="design\img\albertville_toiletteur_osmose_salon-removebg-preview.svg" alt="" style="min-width:150px; max-height: 150px;">
+                    </a>
+                    <a  href="https://www.la-spa.fr/maltraitances" target="blank">
+                        <img  src="design\img\Logo_de_la_SPA__France_.svg" alt="" style="min-width:150px; max-height: 150px;">
+                    </a>
+                </div>
+            </div>
+        </div>
         </section>
 
         <!-- FOOTER -->
         <footer class="text-center text-light">
-            
             <p>N° de Siret 53158112200029 / RCS Chambery n° A531581122</p>
         </footer>
 

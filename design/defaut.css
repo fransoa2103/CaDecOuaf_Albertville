@@ -503,7 +503,7 @@ progress {
 }
 
 .display-6 {
-  font-size: 1rem;
+  font-size: 0.75rem;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -10158,7 +10158,7 @@ body {
   height: auto;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, span {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Casual";
 }
 
@@ -10183,18 +10183,18 @@ li a img {
   transform: rotate(-45deg);
 }
 
+.patte_svg {
+  width: 25px;
+  position: relative;
+  top: 5px;
+  transform: rotate(-45deg);
+}
+
 div.carousel-item img {
   max-width: 75%;
   min-width: 320px;
   height: auto;
   margin: 0 auto;
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px) {
-  section#tarifs {
-    max-width: 500px;
-    margin: 0 auto;
-  }
 }
 
 /*# sourceMappingURL=defaut.css.map */

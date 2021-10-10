@@ -1,5 +1,5 @@
 $theme-colors: (
-    'primary': rgb(0, 128, 128),
+    'primary': #008080,
     'yellow': #ffcf00
 );
     
@@ -9,7 +9,7 @@ $display-font-sizes: (
     3: 2rem,
     4: 1.75rem,
     5: 1.5rem,
-    6: 1.00rem
+    6: 0.75rem
 );
         
 @import "C:/xampp/htdocs/CADECOUAF/node_modules/bootstrap/scss/bootstrap.scss";
@@ -38,7 +38,7 @@ body {
     height: auto;
 }
 
-h1, h2, h3, h4, h5, h6, span {
+h1, h2, h3, h4, h5, h6 {
     font-family:            'Casual';
 }
 
@@ -60,6 +60,12 @@ li a img {
     width:15px;
     transform: rotate(-45deg);
 }
+.patte_svg {
+    width:25px;
+    position: relative;
+    top: 5px;
+    transform: rotate(-45deg);
+}
 
 // 
 // CAROUSEL 
@@ -78,7 +84,7 @@ div.carousel-item img
 
 @media screen and (min-width:768px) and (max-width: 991px){
     section#tarifs {
-        max-width:  500px;
-        margin:     0 auto;
+        // max-width:  500px;
+        // margin:     0 auto;
     }
 }
