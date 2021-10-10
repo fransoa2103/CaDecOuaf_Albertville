@@ -4,12 +4,12 @@ $theme-colors: (
 );
     
 $display-font-sizes: (
-    1: 3rem,
-    2: 2.5rem,
-    3: 2rem,
-    4: 1.75rem,
-    5: 1.5rem,
-    6: 0.75rem
+    1: 3.00rem,
+    2: 2.50rem,
+    3: 2.00rem,
+    4: 1.70rem,
+    5: 1.30rem,
+    6: 1.00rem
 );
         
 @import "C:/xampp/htdocs/CADECOUAF/node_modules/bootstrap/scss/bootstrap.scss";
@@ -31,7 +31,6 @@ html
     user-select:            none;
     overflow-x:             hidden;
     letter-spacing:         0.2rem;
-    font-size: 1.1rem;
 }
 body {
     background-color: #008080;
@@ -45,10 +44,13 @@ h1, h2, h3, h4, h5, h6 {
 a {
     text-decoration: none;
     cursor: pointer;
-    color: grey;
+    color: #ffcf00;
 }
 a:hover {
     color: white;
+}
+footer a p {
+    color: #d3d3d3;
 }
 .navbar-brand img {
     width: 100px;

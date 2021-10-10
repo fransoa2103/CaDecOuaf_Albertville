@@ -19,7 +19,7 @@
   --bs-white: #fff;
   --bs-gray: #6c757d;
   --bs-gray-dark: #343a40;
-  --bs-primary: teal;
+  --bs-primary: #008080;
   --bs-yellow: #ffcf00;
   --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -481,29 +481,29 @@ progress {
 }
 
 .display-4 {
-  font-size: calc(1.3rem + 0.6vw);
+  font-size: calc(1.295rem + 0.54vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-4 {
-    font-size: 1.75rem;
+    font-size: 1.7rem;
   }
 }
 
 .display-5 {
-  font-size: calc(1.275rem + 0.3vw);
+  font-size: calc(1.255rem + 0.06vw);
   font-weight: 300;
   line-height: 1.2;
 }
 @media (min-width: 1200px) {
   .display-5 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 }
 
 .display-6 {
-  font-size: 0.75rem;
+  font-size: 1rem;
   font-weight: 300;
   line-height: 1.2;
 }
@@ -2859,8 +2859,8 @@ textarea.form-control-lg {
 
 .btn-primary {
   color: #fff;
-  background-color: teal;
-  border-color: teal;
+  background-color: #008080;
+  border-color: #008080;
 }
 .btn-primary:hover {
   color: #fff;
@@ -2883,8 +2883,8 @@ textarea.form-control-lg {
 }
 .btn-primary:disabled, .btn-primary.disabled {
   color: #fff;
-  background-color: teal;
-  border-color: teal;
+  background-color: #008080;
+  border-color: #008080;
 }
 
 .btn-yellow {
@@ -2918,27 +2918,27 @@ textarea.form-control-lg {
 }
 
 .btn-outline-primary {
-  color: teal;
-  border-color: teal;
+  color: #008080;
+  border-color: #008080;
 }
 .btn-outline-primary:hover {
   color: #fff;
-  background-color: teal;
-  border-color: teal;
+  background-color: #008080;
+  border-color: #008080;
 }
 .btn-check:focus + .btn-outline-primary, .btn-outline-primary:focus {
   box-shadow: 0 0 0 0.25rem rgba(0, 128, 128, 0.5);
 }
 .btn-check:checked + .btn-outline-primary, .btn-check:active + .btn-outline-primary, .btn-outline-primary:active, .btn-outline-primary.active, .btn-outline-primary.dropdown-toggle.show {
   color: #fff;
-  background-color: teal;
-  border-color: teal;
+  background-color: #008080;
+  border-color: #008080;
 }
 .btn-check:checked + .btn-outline-primary:focus, .btn-check:active + .btn-outline-primary:focus, .btn-outline-primary:active:focus, .btn-outline-primary.active:focus, .btn-outline-primary.dropdown-toggle.show:focus {
   box-shadow: 0 0 0 0.25rem rgba(0, 128, 128, 0.5);
 }
 .btn-outline-primary:disabled, .btn-outline-primary.disabled {
-  color: teal;
+  color: #008080;
   background-color: transparent;
 }
 
@@ -5525,7 +5525,7 @@ textarea.form-control-lg {
 }
 
 .link-primary {
-  color: teal;
+  color: #008080;
 }
 .link-primary:hover, .link-primary:focus {
   color: #006666;
@@ -5886,7 +5886,7 @@ textarea.form-control-lg {
 }
 
 .border-primary {
-  border-color: teal !important;
+  border-color: #008080 !important;
 }
 
 .border-yellow {
@@ -6691,7 +6691,7 @@ textarea.form-control-lg {
 
 /* rtl:end:remove */
 .text-primary {
-  color: teal !important;
+  color: #008080 !important;
 }
 
 .text-yellow {
@@ -6723,7 +6723,7 @@ textarea.form-control-lg {
 }
 
 .bg-primary {
-  background-color: teal !important;
+  background-color: #008080 !important;
 }
 
 .bg-yellow {
@@ -10150,7 +10150,6 @@ html {
   user-select: none;
   overflow-x: hidden;
   letter-spacing: 0.2rem;
-  font-size: 1.1rem;
 }
 
 body {
@@ -10165,11 +10164,15 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 a {
   text-decoration: none;
   cursor: pointer;
-  color: grey;
+  color: #ffcf00;
 }
 
 a:hover {
   color: white;
+}
+
+footer a p {
+  color: #d3d3d3;
 }
 
 .navbar-brand img {
