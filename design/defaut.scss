@@ -1,6 +1,8 @@
 $theme-colors: (
     'primary': #008080,
-    'yellow': #ffcf00
+    'yellow': #ffcf00,
+    'dark': #262626,
+    'light': #fbfbfb,
 );
     
 $display-font-sizes: (
@@ -84,9 +86,9 @@ div.carousel-item img
 // entre le passage grand écran et tablette les images sont trop déformées
 // ici je maximise les sections à 500px de façon à optimiser le format des images
 
-@media screen and (min-width:768px) and (max-width: 991px){
-    section#tarifs {
-        // max-width:  500px;
-        // margin:     0 auto;
-    }
-}
+// @media screen and (min-width:768px) and (max-width: 991px){
+//     section#tarifs {
+//         // max-width:  500px;
+//         // margin:     0 auto;
+//     }
+// }
