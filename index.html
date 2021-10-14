@@ -45,9 +45,9 @@
         </nav>
         
         <!-- EN-TETE -->
-        <section class="d-md-flex w-md-100 bg-dark my-1 rounded text-center align-items-center justify-content-around">
+        <header class="d-md-flex w-md-100 bg-dark my-1 rounded text-center align-items-center justify-content-around">
             <div class="p-3">
-                <img src="design\img\albertville_toiletteur_cadecouaf_carte_de_visite.png" class="img-fluid rounded" style="opacity: 90%; object-fit: contain; object-position: center-bottom;" alt="">
+                <img src="design\img\albertville_toiletteur_cadecouaf_carte_de_visite.png" class="cdv img-fluid rounded" style="opacity: 90%; object-fit: contain; object-position: center-bottom;" alt="">
             </div>
             <div class="w-md-75 text-light text-lg-start p-3">
                 <h1 class="display-1">Ça Déc'Ouaf by Alexia</h1>
@@ -59,7 +59,7 @@
                     </button>
                 </a>
             </div>
-        </section>  
+        </header>  
         
         <!-- INTRODUCTION -->
         <section class="bg-dark my-1 rounded d-lg-flex">
@@ -238,81 +238,35 @@
         <hr>
 
         <!-- AUTRES PRESTATIONS -->
-        <section id="tarifs" class="w-100 p-1 bg-dark rounded">
-            <h2 class="w-100 text-light rounded p-3 bg-primary text-center">Autres prestations</h2>
-            <!-- BLOC CARDS -->
+        <section id="tarifs" class="p-1 bg-dark rounded">
+            <h2 class="text-light rounded p-3 bg-primary text-center">Autres prestations</h2>
+            <!-- BLOC CARDS START -->
             <div class="w-100 display-5 d-md-flex">
                 <!-- *************************** -->
                 <!--         CARD 1              -->
                 <!-- *************************** -->
-                <div class="card w-100" >
-                    <img src="design\img\dog-nail-trimming.jpg" class="w-100 card-img-top img-fluid" style="height:250px; object-fit: cover; object-position: center-bottom;" alt="">
-                    <div class="d-flex flex-column justify-content-between card-body text-dark">
-                        <div>
-                            <h3 class="card-title bg-primary text-light px-2 py-2 rounded">Ongles</h3>
-                            <p class="card-text">En moyenne, il est conseillé de couper les griffes de votre chien tous les 2 mois, voire plus en cas d'inactivité.</p>
-                        </div>
-                        <div>
-                            <button class="btn btn-primary my-2 align-self-bottom" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_tonte_bain" aria-expanded="false" aria-controls="collapseExample">
-                                Tarifs
-                            </button>
-                            <div class="collapse" id="tarifs_tonte_bain">
-                                <div class="card card-body" >
-                                    <p class="fw-normal p-2">* Entre 5€ et 8€</p>
-                                    <div class="d-flex">
-                                        <img class="patte_svg align-self-start" src='design\img\albertville_toiletteur_cadecouaf_chien_patte_red.svg' alt="logo patte de chien cadecouaf by alexia albertville">
-                                        <p class="bg-danger text-light ms-2 p-2 display-6 rounded">* Les tarifs varient selon le gabarit et l'état du chien!</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                <div class="w-100 card bg-light text-dark pt-1">
+                    <h3 class="card-title bg-primary text-light m-2 p-2 rounded">Ongles</h3>
+                    <p class="card-text p-2">Entre 5€ et 8€ selon le gabarit et l'état du chien</p>
                 </div>
                 <!-- *************************** -->
                 <!--         CARD 2              -->
                 <!-- *************************** -->
-                <div class="card w-100" >
-                    <img src="design\img\albertville_toiletteur_canin_nac.jpg" class="w-100 card-img-top img-fluid" style="height:250px; object-fit: cover; object-position: center-bottom;" alt="...">
-                    <div class="d-flex flex-column justify-content-between card-body text-dark">
-                        <div>
-                            <h3 class="card-title bg-primary text-light px-2 py-2 rounded">NAC - Rongeurs</h3>
-                            <p class="card-text">Les NAC (Nouveaux Animaux de Compagnie) sont des espèces animales, autres que les chiens et les chats. Je m'occupe des rongeurs!</p>
-                        </div>
-                        <div>
-                            <button class="btn btn-primary my-2" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_ciseaux" aria-expanded="false" aria-controls="collapseExample">
-                                Tarifs
-                            </button>
-                        </div>
-                        <div class="collapse" id="tarifs_ciseaux">
-                            <div class="card card-body">
-                                <p class="fw-normal p-2">10€ la demi-heure</p>
-                                
-                            </div>
-                        </div>
-                    </div>
+                <div class="w-100 card bg-light text-dark pt-1">
+                    <h3 class="card-title bg-primary text-light p-2 m-2 rounded">NAC - Rongeurs</h3>
+                    <p class="car-text p-2">10€ la demi-heure</p>
                 </div>
                 <!-- *************************** -->
                 <!--         CARD 3              -->
                 <!-- *************************** -->
-                <div class="card w-100" >
-                    <img src="design\img\albertville_toiletteur_cadecouaf_humour_3.jpg" class="w-100 card-img-top img-fluid" style="height:250px; object-fit: cover; object-position: center-bottom;" alt="...">
-                    <div class="d-flex flex-column justify-content-between card-body text-dark">
-                        <h3 class="card-title bg-primary text-light p-3 rounded display-5">Une demande particulière?</h3>
-                            <a href="tel:+33673799112">
-                                <button type="button" class="w-100 btn btn-outline-primary btn-lg my-1 p-2">
-                                    <span class="display-4 fw-bold">APPELEZ-MOI</span>
-                                    <img src="design\img\phone_call_primary.svg" class="img-fluid p-2" style="max-width: 85px" alt="phone call logo">
-                                </button>
-                            </a>
-                            <div class="text-center">
-                                <img src="design\img\no_cats-removebg-preview.png" class="img-fluid my-2" style="max-width: 85px" alt="phone call logo">
-                                <img src="design\img\no_credit_card.png" class="img-fluid my-2" style="max-width: 90px" alt="phone call logo">
-                            </div>
-                            <div class="display-5 text-light bg-danger rounded fw-bolder p-3">
-                                Je ne fais pas les chats, et le règlement en CB n'est pas disponible!
-                        </div>
+                <div class="w-100 card bg-light text-dark pt-1">
+                    <h3 class="card-title bg-primary text-light m-2 p-2 rounded">Informations</h3>
+                    <div class="card-body text-center">
+                        <img src="design\img\no_cats-removebg-preview.png" class="img-fluid" style="max-width: 85px" alt="phone call logo">
+                        <img src="design\img\no_credit_cards.jpg" class="img-fluid" style="max-width: 90px" alt="phone call logo">
                     </div>
                 </div>
+                <!-- BLOC CARDS END -->
             </div>
         </section>
         <hr>

@@ -10494,4 +10494,11 @@ div.carousel-item img {
   margin: 0 auto;
 }
 
+@media screen and (min-width: 992px) {
+  .cdv {
+    max-width: 75%;
+    height: auto;
+  }
+}
+
 /*# sourceMappingURL=defaut.css.map */
