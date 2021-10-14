@@ -10363,10 +10363,6 @@ a {
   color: #ffcf00;
 }
 
-a:hover {
-  color: white;
-}
-
 footer a p {
   color: #d3d3d3;
 }

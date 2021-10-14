@@ -45,19 +45,24 @@
         </nav>
         
         <!-- EN-TETE -->
-        <section class="d-md-flex bg-dark my-1 rounded text-center align-items-center justify-content-around">
-            <img class="d-block img-fluid rounded p-1" style="max-width: 90%;" src="design\img\albertville_toiletteur_cadecouaf_carte_de_visite.png" alt="toilettage humour chien cadecouaf albertville by alexia"> 
-            <div class="text-light text-md-start">
-                <h1>Ça Déc'Ouaf by Alexia</h1>
-                <span>Toilettage canin à domicile</span>
-                <address>
-                    <a class="text-yellow display-3 fw-bold" href="tel:+33673799112">06.73.79.91.12</a><br>
-                </address>
+        <section class="d-md-flex w-md-100 bg-dark my-1 rounded text-center align-items-center justify-content-around">
+            <div class="p-3">
+                <img src="design\img\albertville_toiletteur_cadecouaf_carte_de_visite.png" class="img-fluid rounded" style="opacity: 90%; object-fit: contain; object-position: center-bottom;" alt="">
+            </div>
+            <div class="w-md-75 text-light text-lg-start p-3">
+                <h1 class="display-1">Ça Déc'Ouaf by Alexia</h1>
+                <p class="display-4">Toilettage canin à domicile</p>
+                <a href="tel:+33673799112">
+                    <img src="design\img\phone_call.svg" class="img-fluid p-2" style="max-width: 85px" alt="phone call logo">
+                    <button type="button" class="btn btn-outline-yellow btn-lg my-3 p-2">
+                        <span class="display-4 fw-bold">APPELEZ-MOI</span>
+                    </button>
+                </a>
             </div>
         </section>  
         
         <!-- INTRODUCTION -->
-        <section class="bg-dark my-1 rounded">
+        <section class="bg-dark my-1 rounded d-lg-flex">
             <div class="text-center display-5 d-flex flex-column justify-content-center text-light m-1 p-3">
                 <p>
                     Prendre soin de votre animal n'aura jamais été aussi simple.
@@ -81,50 +86,52 @@
         <hr>
         
         <!-- TARIFS & PRESTATIONS -->
-        <section id="tarifs" class="p-1 bg-dark rounded">
-            <h2 class="text-light rounded p-3 bg-primary text-center">Prestations & Tarifs</h2>
-            <!-- BLOC 3 CARDS -->
-            <div class="display-5">
+        <section id="tarifs" class="w-100 p-1 bg-dark rounded">
+            <h2 class="w-100 text-light rounded p-3 bg-primary text-center">Prestations & Tarifs</h2>
+            <!-- BLOC CARDS -->
+            <div class="w-100 display-5 d-md-flex">
                 <!-- *************************** -->
                 <!--         CARD 1              -->
                 <!-- *************************** -->
-                <div class="card"  style="width: fit-content;">
-                    <img src="design\img\albertville_toiletteur_cadecouaf_chien_tarif_shampoing.jpg" class="card-img-top" alt="" style="height: 250px; max-height: fit-content;">
-                    <div class="card-body text-dark">
-                        <div class="" style="min-height: 320px;">
+                <div class="card w-100" >
+                    <img src="design\img\albertville_toiletteur_cadecouaf_chien_tarif_shampoing.jpg" class="w-100 card-img-top img-fluid" style="height:250px; object-fit: cover; object-position: center-bottom;" alt="">
+                    <div class="d-flex flex-column justify-content-between card-body text-dark">
+                        <div>
                             <h3 class="card-title bg-primary text-light px-2 py-2 rounded">Tonte</h3>
                             <p class="card-text">Même si pour beaucoup de maîtres tondre son chien est une question d’esthétique, la tonte est nécessaire pour le bien-être et la bonne santé du chien. Je vous conseille d'effectuer la tonte au moins deux fois par an.</p>
                         </div>
-                        <button class="btn btn-primary my-2 align-self-bottom" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_tonte_bain" aria-expanded="false" aria-controls="collapseExample">
-                            Tarifs
-                        </button>
-                        <div class="collapse" id="tarifs_tonte_bain">
-                            <div class="card card-body" >
-                                <table class="table" >
-                                    <thead>
-                                        <tr>
-                                            <th>Poids</th>
-                                            <th>Tarifs *</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>inf à 5kgs</td>
-                                            <td>40/45€</td>
-                                        </tr>
-                                        <tr>
-                                            <td>de 5 à 10kgs</td>
-                                            <td>45/50€</td>
-                                        </tr>
-                                        <tr>
-                                            <td>sup à 10kgs</td>
-                                            <td>50€ de l'heure</td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <div class="d-flex">
-                                    <img class="patte_svg align-self-start" src='design\img\albertville_toiletteur_cadecouaf_chien_patte_red.svg' alt="logo patte de chien cadecouaf by alexia albertville">
-                                    <p class="bg-danger text-light ms-2 p-2 display-6 rounded">* Les tarifs varient selon le gabarit et l'état du chien!</p>
+                        <div>
+                            <button class="btn btn-primary my-2 align-self-bottom" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_tonte_bain" aria-expanded="false" aria-controls="collapseExample">
+                                Tarifs
+                            </button>
+                            <div class="collapse" id="tarifs_tonte_bain">
+                                <div class="card card-body" >
+                                    <table class="table" >
+                                        <thead>
+                                            <tr>
+                                                <th>Poids</th>
+                                                <th>Tarifs *</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>inf à 5kgs</td>
+                                                <td>40/45€</td>
+                                            </tr>
+                                            <tr>
+                                                <td>de 5 à 10kgs</td>
+                                                <td>45/50€</td>
+                                            </tr>
+                                            <tr>
+                                                <td>sup à 10kgs</td>
+                                                <td>50€ de l'heure</td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                    <div class="d-flex">
+                                        <img class="patte_svg align-self-start" src='design\img\albertville_toiletteur_cadecouaf_chien_patte_red.svg' alt="logo patte de chien cadecouaf by alexia albertville">
+                                        <p class="bg-danger text-light ms-2 p-2 display-6 rounded">* Les tarifs varient selon le gabarit et l'état du chien!</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -133,18 +140,20 @@
                 <!-- *************************** -->
                 <!--         CARD 2              -->
                 <!-- *************************** -->
-                <div class="card"  style="width: fit-content;">
-                    <img src="design\img\albertville_toiletteur_cadecouaf_chien_tarif_coupe_ciseaux.jpg" class="card-img-top" alt="..." style="height: 250px; max-height: fit-content; ">
-                    <div class="card-body text-dark">
-                        <div style="min-height: 320px;">
+                <div class="card w-100" >
+                    <img src="design\img\albertville_toiletteur_cadecouaf_chien_tarif_coupe_ciseaux.jpg" class="w-100 card-img-top img-fluid" style="height:250px; object-fit: cover; object-position: center-bottom;" alt="...">
+                    <div class="d-flex flex-column justify-content-between card-body text-dark">
+                        <div>
                             <h3 class="card-title bg-primary text-light px-2 py-2 rounded">Ciseaux</h3>
                             <p class="card-text">La coupe ciseaux est particulièrement utile chez les chiens à poils longs. Les ciseaux classiques permettent une coupe droite et simple.
                                 Les ciseaux à sculpter permettent d'éliminer les nœuds. Les ciseaux courbes donnent un effet d'arrondi et de volume.
                             </p>
                         </div>
-                        <button class="btn btn-primary my-2" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_ciseaux" aria-expanded="false" aria-controls="collapseExample">
-                            Tarifs
-                        </button>
+                        <div>
+                            <button class="btn btn-primary my-2" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_ciseaux" aria-expanded="false" aria-controls="collapseExample">
+                                Tarifs
+                            </button>
+                        </div>
                         <div class="collapse" id="tarifs_ciseaux">
                             <div class="card card-body">
                                 <table id="tarif" class="table">
@@ -180,16 +189,18 @@
                 <!-- *************************** -->
                 <!--         CARD 3              -->
                 <!-- *************************** -->
-                <div class="card"  style="width: fit-content;">
-                    <img src="design\img\albertville_toiletteur_cadecouaf_chien_tarif_epilation.jpg" class="card-img-top" alt="..." style="height: 250px; max-height: fit-content;">
-                    <div class="card-body text-dark">
-                        <div  style="min-height: 320px;">
+                <div class="card w-100" >
+                    <img src="design\img\albertville_toiletteur_cadecouaf_chien_tarif_epilation.jpg" class="w-100 card-img-top img-fluid" style="height:250px; object-fit: cover; object-position: center-bottom;" alt="...">
+                    <div class="d-flex flex-column justify-content-between card-body text-dark">
+                        <div>
                             <h3 class="card-title bg-primary text-light px-2 py-2 rounded">Épilations</h3>
                             <p class="card-text">C'est une technique courante, qui ne les fait pas souffrir. Cela ne correspond en rien aux techniques d'épilation chez l'être humain! cette technique arrache le sous-poil mort. Ce qui allège et embellit le pelage du chien.</p>
                         </div>
-                        <button class="btn btn-primary my-2" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_epilations" aria-expanded="false" aria-controls="collapseExample">
-                            Tarifs
-                        </button>
+                        <div>
+                            <button class="btn btn-primary my-2" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_epilations" aria-expanded="false" aria-controls="collapseExample">
+                                Tarifs
+                            </button>
+                        </div>
                         <div class="collapse" id="tarifs_epilations">
                             <div class="card card-body">
                                 <table id="tarif" class="table">
@@ -213,59 +224,13 @@
                                         <td>60€ de l'heure</td>
                                     </tr>
                                 </tbody>
-                            </table>
-                            <div class="d-flex">
-                                <img class="patte_svg align-self-start" src='design\img\albertville_toiletteur_cadecouaf_chien_patte_red.svg' alt="logo patte de chien cadecouaf by alexia albertville">
-                                <p class="bg-danger text-light ms-2 p-2 display-6 rounded">* Les tarifs varient selon le gabarit et l'état du chien!</p>
-                            </div>
-                        </div>
-                    </div> 
-                </div>
-                <!-- *************************** -->
-                <!--         CARD 4              -->
-                <!-- *************************** -->
-                <div class="d-none d-md-block d-xl-none card"  style="width: fit-content;">
-                    <img src="design\img\toilettage_chien_mousse.jpg" class="card-img-top" alt="" style="height: 250px; max-height: fit-content;">
-                    <div class="card-body text-dark">
-                        <div style="min-height: 320px;">
-                            <h3 class="card-title bg-primary text-light px-2 py-2 rounded">Ciseaux</h3>
-                            <p class="card-text">La coupe ciseaux est particulièrement utile chez les chiens à poils longs. Les ciseaux classiques permettent une coupe droite et simple.
-                                Les ciseaux à sculpter permettent d'éliminer les nœuds. Les ciseaux courbes donnent un effet d'arrondi et de volume.
-                            </p>
-                        </div>
-                        <button class="btn btn-primary my-2" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_ciseaux" aria-expanded="false" aria-controls="collapseExample">
-                            Tarifs
-                        </button>
-                        <div class="collapse" id="tarifs_ciseaux">
-                            <div class="card card-body">
-                                <table id="tarif" class="table">
-                                    <thead>
-                                        <tr>
-                                            <th>Poids</th>
-                                            <th>Tarifs *</th>
-                                        </tr>
-                                    </thead>
-                                    <tbody>
-                                        <tr>
-                                            <td>inf à 5kgs</td>
-                                            <td>45/50€*</td>
-                                        </tr>
-                                        <tr>
-                                            <td>de 5 à 10kgs</td>
-                                            <td>55/60€*</td>
-                                        </tr>
-                                        <tr>
-                                            <td>sup à 10kgs</td>
-                                            <td>50€ de l'heure</td>
-                                        </tr>
-                                    </tbody>
                                 </table>
                                 <div class="d-flex">
                                     <img class="patte_svg align-self-start" src='design\img\albertville_toiletteur_cadecouaf_chien_patte_red.svg' alt="logo patte de chien cadecouaf by alexia albertville">
                                     <p class="bg-danger text-light ms-2 p-2 display-6 rounded">* Les tarifs varient selon le gabarit et l'état du chien!</p>
                                 </div>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
             </div>
@@ -273,31 +238,92 @@
         <hr>
 
         <!-- AUTRES PRESTATIONS -->
-        <section class="card display-5">
-            <h2 class="text-light rounded p-3 bg-primary text-center">Autres prestations</h2>
-            <div class="d-flex">
-                <img src="design\img\albertville_toiletteur_cadecouaf_chien_truffe.jpg" class="d-lg-none card-img-top img-fluid" alt="" >
-                <img src="design\img\albertville_toiletteur_cadecouaf_chiens_x4_humour.png" class="d-none d-lg-block card-img-top img-fluid" alt="">
-            </div>
-            <div class="card-body bg-ligth text-dark">
-                <div class="card-text ">
-                    <h3 class="card-title bg-primary text-light px-2 py-2 rounded">Ongles *</h3>
-                    <span>entre 5€ et 8€</span>
-                    <div class="d-flex mt-2">
-                        <img class="patte_svg align-self-start" src='design\img\albertville_toiletteur_cadecouaf_chien_patte_red.svg' alt="logo patte de chien cadecouaf by alexia albertville">
-                        <p class="bg-danger text-light ms-2 p-2 display-6 rounded">* Le tarif varie selon le gabarit et l'état du chien!</p>
+        <section id="tarifs" class="w-100 p-1 bg-dark rounded">
+            <h2 class="w-100 text-light rounded p-3 bg-primary text-center">Autres prestations</h2>
+            <!-- BLOC CARDS -->
+            <div class="w-100 display-5 d-md-flex">
+                <!-- *************************** -->
+                <!--         CARD 1              -->
+                <!-- *************************** -->
+                <div class="card w-100" >
+                    <img src="design\img\dog-nail-trimming.jpg" class="w-100 card-img-top img-fluid" style="height:250px; object-fit: cover; object-position: center-bottom;" alt="">
+                    <div class="d-flex flex-column justify-content-between card-body text-dark">
+                        <div>
+                            <h3 class="card-title bg-primary text-light px-2 py-2 rounded">Ongles</h3>
+                            <p class="card-text">En moyenne, il est conseillé de couper les griffes de votre chien tous les 2 mois, voire plus en cas d'inactivité.</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary my-2 align-self-bottom" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_tonte_bain" aria-expanded="false" aria-controls="collapseExample">
+                                Tarifs
+                            </button>
+                            <div class="collapse" id="tarifs_tonte_bain">
+                                <div class="card card-body" >
+                                    <p class="fw-normal p-2">* Entre 5€ et 8€</p>
+                                    <div class="d-flex">
+                                        <img class="patte_svg align-self-start" src='design\img\albertville_toiletteur_cadecouaf_chien_patte_red.svg' alt="logo patte de chien cadecouaf by alexia albertville">
+                                        <p class="bg-danger text-light ms-2 p-2 display-6 rounded">* Les tarifs varient selon le gabarit et l'état du chien!</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <h5 class="card-title bg-primary text-light px-2 py-2 rounded">NAC</h5>
-                <span>Rongeurs - 10€ la 1/2 heure</span>
+                <!-- *************************** -->
+                <!--         CARD 2              -->
+                <!-- *************************** -->
+                <div class="card w-100" >
+                    <img src="design\img\albertville_toiletteur_canin_nac.jpg" class="w-100 card-img-top img-fluid" style="height:250px; object-fit: cover; object-position: center-bottom;" alt="...">
+                    <div class="d-flex flex-column justify-content-between card-body text-dark">
+                        <div>
+                            <h3 class="card-title bg-primary text-light px-2 py-2 rounded">NAC - Rongeurs</h3>
+                            <p class="card-text">Les NAC (Nouveaux Animaux de Compagnie) sont des espèces animales, autres que les chiens et les chats. Je m'occupe des rongeurs!</p>
+                        </div>
+                        <div>
+                            <button class="btn btn-primary my-2" type="button" data-bs-toggle="collapse" data-bs-target="#tarifs_ciseaux" aria-expanded="false" aria-controls="collapseExample">
+                                Tarifs
+                            </button>
+                        </div>
+                        <div class="collapse" id="tarifs_ciseaux">
+                            <div class="card card-body">
+                                <p class="fw-normal p-2">10€ la demi-heure</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- *************************** -->
+                <!--         CARD 3              -->
+                <!-- *************************** -->
+                <div class="card w-100" >
+                    <img src="design\img\albertville_toiletteur_cadecouaf_humour_3.jpg" class="w-100 card-img-top img-fluid" style="height:250px; object-fit: cover; object-position: center-bottom;" alt="...">
+                    <div class="d-flex flex-column justify-content-between card-body text-dark">
+                        <h3 class="card-title bg-primary text-light p-3 rounded display-5">Une demande particulière?</h3>
+                            <a href="tel:+33673799112">
+                                <button type="button" class="w-100 btn btn-outline-primary btn-lg my-1 p-2">
+                                    <span class="display-4 fw-bold">APPELEZ-MOI</span>
+                                    <img src="design\img\phone_call_primary.svg" class="img-fluid p-2" style="max-width: 85px" alt="phone call logo">
+                                </button>
+                            </a>
+                            <div class="text-center">
+                                <img src="design\img\no_cats-removebg-preview.png" class="img-fluid my-2" style="max-width: 85px" alt="phone call logo">
+                                <img src="design\img\no_credit_card.png" class="img-fluid my-2" style="max-width: 90px" alt="phone call logo">
+                            </div>
+                            <div class="display-5 text-light bg-danger rounded fw-bolder p-3">
+                                Je ne fais pas les chats, et le règlement en CB n'est pas disponible!
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <hr>
-        
+
         <!-- ZONE GEOGRAPHIQUE -->
-        <section id="zoneGeographique" class="text-light text-center bg-dark rounded p-2">
-            <h3 class="border border-light rounded p-1">ZONE GEOGRAPHIQUE</h3>
-            <div class="card my-0 mx-auto"  style="min-width: 250px; max-width: fit-content;">
+        <section id="zoneGeographique" class="text-light text-center bg-dark rounded p-1">
+            <div class="border border-light rounded mb-1">
+                <h3 class="display-3">ZONE GEOGRAPHIQUE</h3>
+            </div>
+            <!-- <div class="card my-0 mx-auto"  style="min-width: 250px; max-width: fit-content;"> -->
+            <div class="card my-0 mx-auto">
                 <img    class="d-block img-fluid"
                         src="design\img\albertville_toiletteur_cadecouaf_plan_albertville.png"
                         alt="carte géographique SAVOIE 73 secteur cadecouaf by alexia albertville">
@@ -309,13 +335,14 @@
                 <a href="https://www.viamichelin.fr/web/Itineraires" target = "blank">
                     <img src="design\img\logo_viamichelin_com.jpg" alt="logo viamichelin" class="rounded mb-1" width="150px">
                 </a>
-                <div class="display-4 text-center fw-bold text-dark rounded p-1 " style="background-color: #FFCF00;">
-                    Contactez-moi pour plus de renseignements!
-                    <address class="">
-                        <a class="text-dark fw-bold" href="tel:+33673799112">06.73.79.91.12</a><br>
-                    </address>
-                </div>
             </div>  
+            <span class="text-yellow">pour plus de renseignements</span><br>
+            <a href="tel:+33673799112">
+                <img src="design\img\phone_call.svg" class="img-fluid p-2" style="max-width: 85px" alt="phone call logo">
+                <button type="button" class="btn btn-outline-yellow btn-lg my-3 p-2">
+                    <span class="display-4 fw-bold">APPELEZ-MOI</span>
+                </button>
+            </a>
             
         </section>
         <hr>
@@ -360,9 +387,8 @@
 
         <!-- CAROUSEL -->
         <section id="carousel" class="carousel slide" data-bs-ride="carousel">
-            <p class="display-5 text-light text-center mb-3">Toutes les photographies sont l'oeuvre de mon travail.</p>
             <div class="carousel-inner">
-                <div class="carousel-item active " data-bs-interval="4000">
+                <div class="carousel-item active " data-bs-interval="5000">
                     <img src="design\img\albertville_toiletteur_cadecouaf_slide_1.jpg" class="d-block w-100" alt="nettoyage shampoing brossage coupe chien cadecouaf by alexia albertville" >
                 </div>
                 <div class="carousel-item" data-bs-interval="4000">
@@ -395,62 +421,78 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
+            <p class="display-6 text-light text-center mb-3">Toutes les photographies sont l'oeuvre de mon travail.</p>
+
         </section>
         <hr>
 
         <!-- LIENS -->
-        <section class="d-flex flex-column flex-xl-row bg-dark rounded p-1">
-            <div class="d-flex flex-column flex-md-row bg-dark">
-                <!-- bloc 1 image humour -->
-                <img    class="align-self-center rounded" src='design\img\albertville_toiletteur_cadecouaf_humour_2.png' alt="humour chien toilettage Ça Déc'Ouaf albertville by alexia"
-                        style="max-width: 300px;">
-                        <!-- style="max-width: 300px; border: solid 1px #008080;"> -->
-                <!-- bloc 2 love heart -->
-                <div class="d-flex flex-column flex-lg-row align-items-center p-1 rounded" style="border: solid 1px #008080;">
-                    <div class="d-flex flex-column flex-lg-row align-items-center p-3">
-                        <img  src="design\img\dog_paw_heart.svg" alt="paw dog with heart" style="min-width:120px; max-height: 120px;">
-                        <h3 class="display-4 text-light text-center">Plus qu'un métier, une passion!</h3>
+        <section class="w-100 d-lg-flex bg-dark rounded p-1">
+            
+            <!-- BLOC 1 -->
+            <div class="w-100 w-lg-50 d-lg-flex">
+                <!-- bloc A image humour -->
+                <div class="d-block d-sm-none text-center mx-1 p-1 rounded border border-primary">
+                    <img class="img-fluid" src='design\img\albertville_toiletteur_cadecouaf_humour_2.png'
+                    alt="humour chien toilettage Ça Déc'Ouaf albertville by alexia"  style="min-width: 250px; max-height: 250px;">
+                </div>
+                <div class="d-none d-md-block d-lg-none mx-1 p-1 rounded border border-primary justify-content-center">
+                    <img class="img-fluid" src='design\img\albertville_toiletteur_cadecouaf_chiens_x4_humour.png'
+                    alt="humour chien toilettage Ça Déc'Ouaf albertville by alexia"  style="min-width: 250px; height: auto;">
+                </div>
+                
+                <!-- bloc B love heart -->
+                <div class="d-sm-flex mx-1 p-1 rounded border border-primary align-items-center text-center" >
+                    <img class="img-fluid" src="design\img\dog_paw_heart.svg" alt="paw dog with heart" style="width: 250px; height: auto;">
+                    <h3 class="display-4 text-light text-center">Plus qu'un métier, une passion!</h3>
+                </div>
+            </div>
+            <!-- FIN BLOC 1 -->
+
+            <!-- BLOC 2 -->
+            <div class="w-100 w-lg-50 d-lg-flex">
+                <!-- bloc A réseaux sociaux social network-->
+                <div class="w-100 w-lg-50 h-100 rounded p-1 border border-primary">
+                    <div class="h-50 bg-primary rounded" >
+                        <p class="display-4 p-3 text-dark fw-bold text-center">Suivez-moi sur les réseaux</p>
+                    </div>
+                    <div class="h-50 pb-3 d-lg-flex text-center align-items-center justify-content-center">
+                        <a href="https://www.facebook.com/alexiabycadecouaf" target="blank">
+                            <img  src="design\img\logo_facebook.svg" alt="Facebook ca dec'ouaf by alexi Albertville" style="min-width:120px; max-height: 50px;">
+                        </a>
+                        <a href="https://www.instagram.com/alexia_toiletteuse/" target="blank">
+                            <img  src="design\img\logo_instagram.svg" alt="instagram ca dec'ouaf by alexi Albertville" style="min-width:120px; max-height: 50px;">
+                        </a>
                     </div>
                 </div>
+                <!-- fin bloc A -->
+
+                <!-- bloc B liens utiles -->
+                <div class="w-100 w-lg-50 d-lg-flex flex-column justify-content-center bg-primary rounded p-1" style="border: solid 1px #292b2c;">
+                    <div class="d-flex justify-content-center bg-dark rounded" style="width: 100%; min-height: 75px; height: 33%;">
+                        <p class="display-5 text-primary fw-bold align-self-center">Liens utiles</p>
+                    </div>
+                    <div class="d-flex justify-content-around align-items-center">
+                        <a  class="" href="https://www.facebook.com/osmosekarine" target="blank">
+                            <img  src="design\img\albertville_toiletteur_osmose_salon-removebg-preview.svg" alt="" style="max-width:150px;">
+                        </a>
+                        <a  href="https://www.la-spa.fr/maltraitances" target="blank">
+                            <img  src="design\img\Logo_de_la_SPA__France_.svg" alt="" style="min-width:10px; max-height: 120px;">
+                        </a>
+                    </div>
+                </div>
+                <!-- Fin bloc B liens utiles -->
+
             </div>
-            <div class="d-flex flex-column flex-md-row bg-dark">
-            <!-- bloc 3 réseaux sociaux social network-->
-            <div class="d-flex flex-column justify-content-center rounded p-1" style="border: solid 1px #008080;">
-                <div class="d-flex justify-content-center bg-primary rounded" style="width: 100%; min-height: 75px; max-height: 33%;">
-                    <div class="display-5 text-dark fw-bold align-self-center text-center">Suivez-moi sur les réseaux</div>
-                </div>
-                <div class="d-flex flex-lg-column flex-row justify-content-center align-items-center p-3">
-                    <a class="my-2" href="https://www.facebook.com/alexiabycadecouaf" target="blank">
-                        <img  src="design\img\logo_facebook.svg" alt="Facebook ca dec'ouaf by alexi Albertville" style="min-width:150px; max-height: 50px;">
-                    </a>
-                    <a  href="https://www.instagram.com/alexia_toiletteuse/" target="blank">
-                        <img  src="design\img\logo_instagram.svg" alt="instagram ca dec'ouaf by alexi Albertville" style="min-width:120px; max-height: 50px;">
-                    </a>
-                </div>
-            </div>
-            <!-- bloc 4 links -->
-            <div class="d-flex flex-column justify-content-center bg-primary rounded p-1" style="border: solid 1px #292b2c;">
-                <div class="d-flex justify-content-center bg-dark rounded" style="width: 100%; min-height: 75px; height: 33%;">
-                    <div class="display-5 text-primary fw-bold align-self-center">Liens utiles</div>
-                </div>
-                <div class="d-flex flex-column flex-lg-row justify-content-center align-items-center p-2">
-                    <a  class="" href="https://www.facebook.com/osmosekarine" target="blank">
-                        <img  src="design\img\albertville_toiletteur_osmose_salon-removebg-preview.svg" alt="" style="max-width:200px;">
-                    </a>
-                    <a  href="https://www.la-spa.fr/maltraitances" target="blank">
-                        <img  src="design\img\Logo_de_la_SPA__France_.svg" alt="" style="min-width:150px; max-height: 150px;">
-                    </a>
-                </div>
-            </div>
-        </div>
         </section>
+        <hr>
 
         <!-- FOOTER -->
-        <footer id="footer" class="text-center text-light bg-dark rounded my-1 p-1">
-            <a href="https://www.societe.com/societe/madame-alexia-ligney-531581122.html" target="blank">
+        <footer id="footer" class="d-md-flex text-center text-light my-1 p-2">
+            <a class="w-50" href="https://www.societe.com/societe/madame-alexia-ligney-531581122.html" target="blank">
                 <p style="opacity: 50%;" class="display-6">N° de Siret 53158112200029</br>RCS Chambery n° A531581122</p>
             </a>
-            <a href="https://fransoa2103.github.io/portfolio/" target="blank">
+            <a class="w-50" href="https://fransoa2103.github.io/portfolio/" target="blank">
                 <p id="copyright"></p>
             </a>
         </footer>

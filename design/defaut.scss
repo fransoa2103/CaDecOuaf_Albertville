@@ -3,6 +3,7 @@ $theme-colors: (
     'yellow': #ffcf00,
     'dark': #262626,
     'light': #fbfbfb,
+    'danger': #dc3545
 );
     
 $display-font-sizes: (
@@ -48,9 +49,11 @@ a {
     cursor: pointer;
     color: #ffcf00;
 }
-a:hover {
-    color: white;
+a button  {
+    // font-family: 'Casual';
+    letter-spacing: 3px;
 }
+
 footer a p {
     color: #d3d3d3;
 }
@@ -71,6 +74,7 @@ li a img {
     transform: rotate(-45deg);
 }
 
+
 // 
 // CAROUSEL 
 //
@@ -81,14 +85,3 @@ div.carousel-item img
     height: auto;
     margin: 0 auto;
 }
-
-// MEDIA QUERIES
-// entre le passage grand écran et tablette les images sont trop déformées
-// ici je maximise les sections à 500px de façon à optimiser le format des images
-
-// @media screen and (min-width:768px) and (max-width: 991px){
-//     section#tarifs {
-//         // max-width:  500px;
-//         // margin:     0 auto;
-//     }
-// }
