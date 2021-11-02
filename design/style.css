@@ -10496,6 +10496,10 @@ div.carousel-item img {
 }
 
 @media screen and (min-width: 992px) {
+  main {
+    width: 75%;
+  }
+
   .cdv {
     max-width: 75%;
     height: auto;
